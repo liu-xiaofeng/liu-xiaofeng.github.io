@@ -1,332 +1,870 @@
-<!DOCTYPE HTML>
-<!--
-	Future Imperfect by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+<!doctype html>
 <html>
-	<head>
-		<title>Publications</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-	</head>
-	<body class="single">
+  <head>
+  <script src="https://use.fontawesome.com/baff6f55f5.js"></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Xiaofeng Liu</title>
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
 
-				<!-- Header -->
-					<header id="header">
-						<h1><a href="https://liu-xiaofeng.github.io/">Xiaofeng Liu</a></h1>
-						<nav class="links">
-							<ul>
-								<li><a href="https://liu-xiaofeng.github.io/publications.html">Publications</a></li>
-								<li><a href="https://liu-xiaofeng.github.io/talks.html">Talks</a></li>
-								<li><a href="https://liu-xiaofeng.github.io/teaching.html">Teaching</a></li>
-								<li><a href="https://liu-xiaofeng.github.io/posts.html">Posts</a></li>
-								<li><a href="https://liu-xiaofeng.github.io/cv.html">[Resume/CV]</a></li>
-							</ul>
-						</nav>
-						<nav class="main">
-							<ul>
-								<li class="search">
-									<a class="fa-search" href="#search">Search</a>
-									<form id="search" method="get" action="http://www.google.com/search">
-										<input type="text" name="query" placeholder="Google Search" />
-									</form>
-								</li>
-								<li class="menu">
-									<a class="fa-bars" href="#menu">Menu</a>
-								</li>
-							</ul>
-						</nav>
-					</header>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-29643011-3', 'auto');
+      ga('send', 'pageview');
+    </script>
 
-					<!-- Menu -->
-					<section id="menu">
+    <!-- For all browsers -->
+    <link rel="stylesheet" href="assets/css/academicons.min.css"/>
+    <link rel="stylesheet" href="assets/css/academicons.css"/>
+    
+    <style>
+      button.accordion {
+      font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+      cursor: pointer;
+      padding: 0px;
+      border: none;
+      text-align: left;
+      outline: none;
+      font-size: 100%;
+      transition: 0.3s;
+      background-color: #f8f8f8;
+      }
+      button.accordion.active, button.accordion:hover {
+      background-color: #f8f8f8;
+      }
+      button.accordion:after {
+      content: " [+] ";
+      font-size: 90%;
+      color:#777;
+      float: left;
+      margin-left: 1px;
+      }
 
-						<!-- Search -->
-							<section>
-								<form class="search" method="get" action="https://scholar.google.com/search">
-									<input type="text" name="query" placeholder="Scholar Search" />
-								</form>
-							</section>
-
-						<!-- Links -->
-							<section>
-								<ul class="links">
-									<li>
-										<h3>Univ Pages</h3>
-										<a href="https://www.cmu.edu/">
-											<p>CMU</p>
-										</a>
-                                        <a href="http://english.ucas.ac.cn/">
-											<p>UCAS</p>
-										</a>
-                                        <a href="http://en.ustc.edu.cn/">
-											<p>USTC</p>
-										</a>
-									</li>
-
-									<li>
-										<h3>ArXiv</h3>
-										<a href="https://arxiv.org/list/cs.CV/recent">
-											<p>CV&PR</p>
-										</a>
-                                        <a href="https://arxiv.org/list/stat.ML/recent">
-											<p>ML</p>
-										</a>
-                                        <a href="https://arxiv.org/list/cs.AI/recent">
-											<p>AI</p>
-										<a href="https://arxiv.org/list/cs.MM/recent">
-											<p>Multimedia</p>
-										</a>
-									</li>
-
-
-									<li>
-										<a href="https://www.quora.com/">
-											<h3>Quora</h3>
-										</a>
-									</li>
+      button.accordion.active:after {
+      content: " [\2212] ";
+      }
+      div.panel {
+      padding: 0 20px;
+      margin-top: 5px;
+      display: none;
+      background-color: white;
+      font-size: 100%;
+      }
+      div.panel.show {
+      display: block !important;
+      }
+    </style>
 
 
 
-								</ul>
-							</section>
+  </head>
+  <body>
+    <div class="wrapper">
+           <header>
+        <h1>Xiaofeng Liu</h1>
+        <p>Instructor <br>Harvard University/MGH</p>
+        <p>Research Affiliate<br>Gorden Center for Medical Imaging</p>
+        <h3><p class="view"><a href="https://liu-xiaofeng.github.io/">Home</a></p></h3>
+        <h3><p class="view"><a href="https://liu-xiaofeng.github.io/cv.html">CV</a></p></h3>
+        <h3><p class="view"><a href="https://liu-xiaofeng.github.io/research.html">Research←</a></p></h3>
+        <h3><p class="view"><a href="https://liu-xiaofeng.github.io/projects.html">Projects</a></p></h3>
+        <h3><p class="view"><a href="https://liu-xiaofeng.github.io/teaching.html">Teaching/Talks</a></p></h3>
+        <h3><p class="view"><a href="https://liu-xiaofeng.github.io/personal.html">Personal</a></p></h3>
+    <p class="view"><b>Social</b><br>
+        <a href="mailto:liuxiaofengcmu@gmail.com" class="author-social" target="_blank"><i class="fa fa-fw fa-envelope-square"></i> Email</a><br>
+        <a href="https://scholar.google.com/citations?user=VighnTUAAAAJ&hl=en" target="_blank"><i class="ai ai-fw ai-google-scholar-square"></i> Scholar</a><br>
+        <a href="https://orcid.org/0000-0002-4514-2016"><i class="ai ai-fw ai-orcid-square"></i> ORCID</a><br>
+        <a href="https://github.com/liu-xiaofeng"><i class="fa fa-fw fa-github-square"></i> GitHub</a><br>
+        <a href="https://twitter.com/liuxiao13718215" class="author-social" target="_blank"><i class="fa fa-fw fa-twitter-square"></i> Twitter</a><br>
+        <a href="https://linkedin.com/in/xiaofengcs" class="author-social" target="_blank"><i class="fa fa-fw fa-linkedin-square"></i> LinkedIn</a><br>
+
+    <p><b>Contact:</b><br>Massachusetts General Hospital<br>Harvard Medical School<br>5 Fruit Street, Thier 304<br>Boston, MA 02114<br>liuxiaofengcmu[AT]gmail.com</p>
+      </header>
+      <section>
+
+    <h2><a id="published-papers-updated" class="anchor" href="#publications" aria-hidden="true"><span class="octicon octicon-link"></span></a>Selected Published &amp; Forthcoming Papers</h2>
+
+      <h3> Full list @ <a href="https://scholar.google.com/citations?user=VighnTUAAAAJ&hl=en" target="_blank"><i class="ai ai-fw ai-google-scholar-square"></i> Google Scholar</a> </h3>
 
 
 
-						<!-- Actions -->
-							<section>
-								<ul class="actions vertical">
-									<li><a href="https://exchange.andrew.cmu.edu/owa/#path=/mail" class="button big fit">Log In CMU Emails</a></li>
-								</ul>
-							</section>
+           <hr>
 
-					</section>
-
-				<!-- Main -->
-					<div id="main">
-
-						<!-- Post -->
-							<article class="post">
-								<header>
-									<div class="title">
-										<h2><a href="#">Publications</a></h2>
-									<p><a href="https://scholar.google.com/citations?user=VighnTUAAAAJ&hl=en">Google Scholar</a></p>
-									</div>
-									
-									<div class="meta">
-										<time class="published" datetime="2015-11-01">Jul 24, 2018</time>
-										<a href="#" class="author"><span class="name">Latest update by</span><img src="images/avatar.jpeg" alt="" /></a>
-									</div>
-								</header>
-
-                                <div align="center">
-                                <h2><font color="red"><a href="#">Conference Papers</a></font></h2>
-								</div>
-                                <br>
-
-				<B>Deep Verifier Networks: Verification of Deep Discriminative Models with Deep Generative Models. <I>In Submission.</I></B>
-							    <br>
-								T Che, X Liu, S Li, Y Ge, R Zhang, C Xiong, Y Bengio <a href="https://liu-xiaofeng.github.io/Papers/Image Inpainting using Block-wise Procedural Training with Annealed Adversarial Counterpar.pdf" target="_blank">[Paper]</a>
-								<br>
-								<br>
-								
-								
-				<B>Permutation-invariant Feature Restructuring for Correlation-aware Image Set-based Recognition. <I>In ICCV 2019.</I></B>
-							    <br>
-								X Liu, Z Guo, S Li, J You, B.V.K. Kumar <a href="https://liu-xiaofeng.github.io/Papers/Image Inpainting using Block-wise Procedural Training with Annealed Adversarial Counterpar.pdf" target="_blank">[Paper]</a>
-								<br>
-								<br>
-								
-				<B>Conservative Wasserstein Training for Pose Estimation. <I>In ICCV 2019.</I></B>
-								X Liu, Y Zou, T Che, J You, B.V.K. Kumar <a href="https://liu-xiaofeng.github.io/Papers/Image Inpainting using Block-wise Procedural Training with Annealed Adversarial Counterpar.pdf" target="_blank">[Paper]</a>
-								<br>
-								<br>
-								
-				<B>Confidence Regularized Self-Training. <I>In ICCV 2019.</I></B>
-							    <br>
-								P Ding, A Kuijper, S Huang, X Liu, P Jia. <a href="https://liu-xiaofeng.github.io/Papers/Image Inpainting using Block-wise Procedural Training with Annealed Adversarial Counterpar.pdf" target="_blank">[Paper]</a>
-								<br>
-								<br>
-				<B>RESEARCH ON THE TECHNOLOGY OF DEEP LEARNING BASED FACE IMAGE RECOGNITION. <I>Thesis.</I></B>
-							    <br>
-								X. Liu. <a href="https://www.researchgate.net/publication/334470173_RESEARCH_ON_THE_TECHNOLOGY_OF_DEEP_LEARNING_BASED_FACE_IMAGE_RECOGNITION?_sg=Gjth6L7Qclvab_vwM0V5ky3IjFTF4AFJooE3FeMzObP460ahwQsv1kVQrpbbfcDvbWuRZLuTqpsKboY9ppNjq0TtAYFa3mbYzWGToP6jWUI.-mHDQAL9HFDZTKP5lf2x-sncA63Hb_jBG9dk0Ka_oXFvMzReOzeh69vWRob-gUF6t8bl3jTriiGOPDZ5JME10w" target="_blank">[Paper]</a>
-								<br>
-								<br>
-								
-				<B>Feature-level Frankenstein: Eliminating Variations for Discriminative Recognition. <I>In CVPR 2019.</I></B>
-							    <br>
-								X Liu, S Li, L Kong, W Xie, P Jia, J You, B.V.K. Kumar. <a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Liu_Feature-Level_Frankenstein_Eliminating_Variations_for_Discriminative_Recognition_CVPR_2019_paper.pdf">[Paper]</a>
-								<br>
-								<br>
-								
-								
-								
-								
-                                <B>Image Inpainting using Block-wise Procedural Training with Annealed Adversarial Counterpart. <I>ArXiv.</I></B>
-							    <br>
-								C. Yang, Y. Song, <B>X. Liu</B>, Q. Tang, C.-C. J. Kuo. <a href="https://liu-xiaofeng.github.io/Papers/Image Inpainting using Block-wise Procedural Training with Annealed Adversarial Counterpar.pdf" target="_blank">[Paper]</a>
-								<br>
-								<br>
-				
-				<B>Dependency-aware Attention Control for Unconstrained Face Recognition with Image Sets. <I>In ECCV 2018.</I></B>
-							    <br>
-								<B>X. Liu</B>, B.V.K Kumar, C. Yang, Q. Tang, J. You. <a href="https://liu-xiaofeng.github.io/Papers/Dependency-Aware Attention Control for Unconstrained Face Recognition with Image Sets.pdf" target="_blank">[Paper]</a>
-								<br>
-								<br>
-                                <B>Contextual Based Image Inpainting: Infer, Match and Translate. <I>In ECCV 2018.</I></B>
-							    <br>
-								Y. Song, C. Yang, Z. Lin, <B>X. Liu</B>, H. Li, Q. Huang, C.-C. Jay Kuo. <a href="https://liu-xiaofeng.github.io/Papers/Contextual-based Image Inpainting Infer, Match, and Translate.pdf" target="_blank">[Paper]</a> 
-								<br>
-								<br>
-								<B>Ordinal Regression with Neuron Stick-breaking for Medical Diagnosis. <I>In BioComputing Workshop on ECCV 2018.</I></B>
-							    <br>
-								<B>X. Liu</B>, Z. Yang, Y. Song, C. Yang, J. You, B.V.K Kumar. <B>(Oral)</B><a href="https://liu-xiaofeng.github.io/Papers/Ordinal Regression with Neuron Stick-breaking for Medical Diagnosis.pdf" target="_blank">[Paper]</a>
-								<br>
-								<br>
-                                <B>Data Augmentation via Latent Space Interpolation for Image Classification. <I>In ICPR 2018.</I></B>
-							    <br>
-								<B>X. Liu</B>, Jun Wang, Lingsheng Kong, Zhihui Diao, Junliang Yan, Ping Jia, Jane You. <a href="https://liu-xiaofeng.github.io/Papers/Data Augmentation via Latent Space Interpolation for Image Classification.pdf" target="_blank">[Paper]</a>
-								<br>
-								<br>
-								<B>A joint optimization framework of low-dimensional projection and collaborative representation for discriminative classification. <I>In ICPR 2018.</I></B>
-							    <br>
-								<B>X. Liu</B>, Zhaofeng Li, Lingsheng Kong, Zhihui Diao, Junliang Yan, Ping Jia, Jane You. <a href="https://liu-xiaofeng.github.io/Papers/A joint optimization framework of low-dimensional projection and collaborative representation for discriminative classification.pdf" target="_blank">[Paper]</a>
-								<br>
-								<br>
-                                <B>Normalized face image generation with perceptron generative adversarial networks. <I>In IEEE Identity, Security, and Behavior Analysis (ISBA), 2018.</I></B>
-							    <br>
-								<B>X. Liu</B>, B.V.K Kumar, Y. Ge, C. Yang, J. You, and P. Jia.<B><font color="red">Best Paper Award</font></B> <a href="https://liu-xiaofeng.github.io/Papers/Normalized face image generation with perceptron generative adversarial networks.pdf" target="_blank">[Paper]</a>
-								
-								<br>
-								<br>
-                                <B>Adaptive Deep Metric Learning for Identity-Aware Facial Expression Recognition. <I>In Biometrics workshop on CVPR 2017.</I></B>
-							    <br>
-								<B>X. Liu</B>, B.V.K Kumar, Jane You, Ping Jia.<B>(Long Oral)</B> <a href="https://liu-xiaofeng.github.io/Papers/Adaptive Deep Metric Learning for Identity-Aware Facial Expression Recognition.pdf" target="_blank">[Paper]</a>
-								<br>
-								<br>
-                                <br>
-
-                                <div align="center">
-                                <h2><font color="red"><a href="#">Journal Papers</a></font></h2>
-								</div>
-                                <br>
-			<B>Dependency-aware Attention Control for ImageSet-based Face Recognition. <I>In submission to IEEE T-IFS.</I></B>
-							    <br>
-								<B>X. Liu</B>, B.V.K Kumar, P. Jia, J. You. <a href="https://liu-xiaofeng.github.io/Papers/Hard negative generation for identity-disentangled facial expression recognition.pdf" target="_blank">[Paper]</a>
-								<br>
-								<br>
-									
-									
-			<B>Unimodal Regularized Neuron Stick-breaking for Ordinal Regression. <I>In submission to Neural Computing.</I></B>
-							    <br>
-								<B>X. Liu</B>, B.V.K Kumar, P. Jia, J. You. <a href="https://liu-xiaofeng.github.io/Papers/Hard negative generation for identity-disentangled facial expression recognition.pdf" target="_blank">[Paper]</a>
-								<br>
-								<br>
-									
-									
-			<B>Light R-CNN: A simple but eﬃcient R-CNN based on reverse residual model. <I>In submission to Neural Networks.</I></B>
-							    <br>
-								P Ding, A Kuijper, S Huang, <B>X. Liu</B>, P Jia. <a href="https://liu-xiaofeng.github.io/Papers/Hard negative generation for identity-disentangled facial expression recognition.pdf" target="_blank">[Paper]</a>
-								<br>
-								<br>						
-									
-									
-
-								<B>Hard negative generation for identity-disentangled facial expression recognition. <I>Pattern Recognition.</I></B>
-							    <br>
-								<B>X. Liu</B>, B.V.K Kumar, P. Jia, J. You. <a href="https://liu-xiaofeng.github.io/Papers/Hard negative generation for identity-disentangled facial expression recognition.pdf" target="_blank">[Paper]</a>
-								<br>
-								<br>
-                                <B>Electrically tunable holographic waveguide display based on holographic polymer dispersed liquid crystal grating. <I>under review in Optics Letters</I></B>
-							    <br>
-								Z. Diao, L. Kong, J. Yan, J. Guo, <B>X. Liu</B>, L. Xuan. <a href="#">[Paper]</a> 
-								<br>
-								<br>
-								<B>Panoramic stereo imaging system for efficient mosaicking: parallax analyses and system design. <I>Applied Optics.</I></B>
-							    <br>
-								J. Yan, L. Kong, Z. Diao, <B>X. Liu</B>, L. Zhu, P. Jia. <a href="https://liu-xiaofeng.github.io/Papers/Panoramic stereo imaging system for efficient.pdf" target="_blank">[Paper]</a>
-								<br>
-								<br>
-                                <B>Adaptive metric learning with deep neural networks for video-based facial expression recognition. <I>Journal of Electronic Imaging.</I></B>
-							    <br>
-								<B>X. Liu</B>, B.V.K Kumar, C. Yang, C.-C. Jay Kuo, J. You. <a href="https://liu-xiaofeng.github.io/Papers/Adaptive metric learning with deep neural networks for video-based facial expression recognition.pdf" target="_blank">[Paper]</a>
-								<br>
-								<br>
-								<B>Line-scan system for continuous hand authen-tication. <I>Optical Engineering.</I></B>
-								<br>
-								<B>X. Liu</B>, L. Kong, Z. Diao, P. Jia. <a href="https://liu-xiaofeng.github.io/Papers/Line-scan system for continuous hand authentication.pdf" target="_blank">[Paper]</a>
-								<br>
-                                <br>
-                                <br>
-
-                                <div align="center">
-                                <h2><font color="red"><a href="#">Patents</a></font></h2>
-								</div>
-                                <br>
-
-	                            <B>A method and system for 3D posture recogni-tion using silhouette. (Granted China Patent),<I> CN106056089A</I></B>
-							    <br>
-								L. Kong, <B>X. Liu</B>, Z. Diao, P. Jia. <a href="#">[Patent]</a>
-								<br>
-								<br>
-                                <B>A method and system to get the optimal place-ment of the image capturing devices. (Granted China Patent),<I> CN106021803A</I></B>
-							    <br>
-								L. Kong, <B>X. Liu</B>, Z. Diao, P. Jia. <a href="#">[Patent]</a> 
-								<br>
-								<br>
-								<B>A face alignment method and system. (Granted China Patent),<I> CN106022269A</I></B>
-								<br>
-								L. Kong, <B>X. Liu</B>, Z. Diao, P. Jia. <a href="#">[Patent]</a> 
-								<br>
-
-
-							</article>
+    <h2>2020</h2>
 
 
 
-						<!-- Pagination -->
-							<ul class="actions pagination">
-								<li><a href="https://liu-xiaofeng.github.io/" class="button big previous">Previous Page</a></li>
-								<li><a href="https://liu-xiaofeng.github.io/talks.html" class="button big next">Next Page</a></li>
-							</ul>
-
-						
 
 
-							
 
-					</div>
+    <table border="0">
+    <tbody><tr>
+    <td width="140"><a href="https://liu-xiaofeng.github.io/publications/Severity-Aware Semantic Segmentation with Reinforced Wasserstein Training.pdf"><img src="https://liu-xiaofeng.github.io/publications/figs/Severity-Aware Semantic Segmentation with Reinforced Wasserstein Training.png" border="1"width="210"></a></td>
+    <td width="20"></td>
+    <td valign="middle" width="900">
+    <p style="margin:0;" }><p > <a style="margin:0; font-size:100%; font-weight:bold" href="https://liu-xiaofeng.github.io/publications/Severity-Aware Semantic Segmentation with Reinforced Wasserstein Training.pdf">Severity-Aware Semantic Segmentation with Reinforced Wasserstein Training</a></b>
+      <br> Xiaofeng Liu, Wenxuan Ji, Jane You, Georges El Fakhri, Jonghye Woo <br> <i>IEEE Conf. on Computer Vision and Pattern Recognition (CVPR)</i>, 2020.
+      <br> <a href="https://liu-xiaofeng.github.io/publications/Severity-Aware Semantic Segmentation with Reinforced Wasserstein Training.pdf"> [PDF] </a>
+      <a href=" "> [BibTex] </a>
+      <button class="accordion">
+      Abstract
+    </button>
+    </p>
+    <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"> Semantic segmentation is a class of methods to classify each pixel in an image into semantic classes, which is critical for autonomous vehicles and surgery systems. Cross-entropy (CE) loss-based deep neural networks (DNN) achieved great success w.r.t. the accuracy-based metrics, e.g., mean Intersection-over Union. However, the CE loss has a limitation in that it ignores varying degrees of severity of pair-wise misclassified results. For instance, classifying a car into the road is much more terrible than recognizing it as a bus. To sidestep this, in this work, we propose to incorporate the severity-aware inter-class correlation into our Wasserstein training framework by configuring its ground distance matrix. In addition, our method can adaptively learn the ground metric in a high-fidelity simulator, following a reinforcement alternative optimization scheme. We evaluate our method using the CARLA simulator with the Deeplab backbone, demonstraing that our method significantly improves the survival time in the CARLA simulator. Also, our method can be readily applied to existing DNN architectures and algorithms while yielding superior performance. We report results from experiments carried out with the CamVid and Cityscapes datasets. </div></p>
+    </tr>
+   </tbody></table>
+   <p class="margin-small">&nbsp;</p>
 
-						<!-- Footer -->
-							<section id="footer">
-								<ul class="icons">
-									<li><a href="#" class="fa-twitter"><span class="label">Twitter</span></a></li>
-									<li><a href="#" class="fa-facebook"><span class="label">Facebook</span></a></li>
-									<li><a href="#" class="fa-instagram"><span class="label">Instagram</span></a></li>
-									<li><a href="#" class="fa-rss"><span class="label">RSS</span></a></li>
-									<li><a href="liuxiaofengcmu@gmail.com" class="fa-envelope"><span class="label">Email</span></a></li>
-								</ul>
-								<p class="copyright">&copy;  <a href="liu-xiaofeng.github.io">Xiaofeng Liu</a>. Latest update: Jul 24 2018</p>
-							</section>
 
-					</section>
 
-			</div>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
+    <table border="0">
+    <tbody><tr>
+    <td width="140"><a href="https://liu-xiaofeng.github.io/publications/Importance-Aware Semantic Segmentation in Self-Driving with Discrete Wasserstein Training.pdf"><img src="https://liu-xiaofeng.github.io/publications/figs/Importance-Aware Semantic Segmentation in Self-Driving with Discrete Wasserstein Training.png" border="1"width="210"></a></td>
+    <td width="20"></td>
+    <td valign="middle" width="900">
+    <p style="margin:0;" }><p > <a style="margin:0; font-size:100%; font-weight:bold" href="https://liu-xiaofeng.github.io/publications/Importance-Aware Semantic Segmentation in Self-Driving with Discrete Wasserstein Training.pdf">Importance-Aware Semantic Segmentation in Self-Driving with Discrete Wasserstein Training</a></b>
+      <br> Xiaofeng Liu, Yuzhuo Han, Song Bai, Yi Ge, Tianxing Wang, Xu Han, Site Li, Jane You, Jun Lu <br> <i>Thirty-Fourth AAAI Conference on Artificial Intelligence (AAAI)</i>, 2020.
+      <br> <a href="https://liu-xiaofeng.github.io/publications/Importance-Aware Semantic Segmentation in Self-Driving with Discrete Wasserstein Training.pdf"> [PDF] </a>
+      <a href=" "> [BibTex] </a>
+      <button class="accordion">
+      Abstract
+    </button>
+    </p>
+    <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"> Semantic segmentation (SS) is an important perception manner for self-driving cars and robotics, which classifies each pixel into a pre-determined class. The widely-used cross-entropy (CE) loss-based deep networks has achieved significant progress w.r.t. the mean Intersection-over Union (mIoU). However, the cross-entropy loss can not take the different importance of each class in an self-driving system into account. For example, pedestrians in the image should be much more important than the surrounding buildings when make a decisions in the driving, so their segmentation results are expected to be as accurate as possible. In this paper, we propose to incorporate the importance-aware inter-class correlation in a Wasserstein training framework by configuring its ground distance matrix. The ground distance matrix can be pre-defined following a priori in a specific task, and the previous importance-ignored methods can be the particular cases. From an optimization perspective, we also extend our ground metric to a linear, convex or concave increasing function $w.r.t.$ pre-defined ground distance. We evaluate our method on CamVid and Cityscapes datasets with different backbones (SegNet, ENet, FCN and Deeplab) in a plug and play fashion. In our extenssive experiments, Wasserstein loss demonstrates superior segmentation performance on the predefined critical classes for safe-driving. </div></p>
+    </tr>
+   </tbody></table>
+   <p class="margin-small">&nbsp;</p>
 
-	</body>
+
+    <table border="0">
+    <tbody><tr>
+  <td width="140"><a href="https://liu-xiaofeng.github.io/publications/Unimodal Regularized Neuron Stick-breaking for Ordinal Classification.pdf"><img src="https://liu-xiaofeng.github.io/publications/figs/Unimodal Regularized Neuron Stick-breaking for Ordinal Classification.png" border="1"width="210"></a></td>
+    <td width="20"></td>
+    <td valign="middle" width="900">
+    <p style="margin:0;" }><p > <a style="margin:0; font-size:100%; font-weight:bold" href="https://www.sciencedirect.com/science/article/abs/pii/S0925231220300618">Unimodal Regularized Neuron Stick-breaking for Ordinal Classification</a></b>
+      <br> Xiaofeng Liu, Fangfang Fan, Lingsheng Kong, Zhihui Diao, Wanqing Xie, Jun Lu, Jane You <br> <i>Neurocomputing</i>, 2020, Volume 388, Pages 34-44.
+      <br> <a href="https://liu-xiaofeng.github.io/publications/Unimodal Regularized Neuron Stick-breaking for Ordinal Classification.pdf"> [PDF] </a>
+      <a href="https://scholar.googleusercontent.com/scholar.bib?q=info:0cXOnEDWYcIJ:scholar.google.com/&output=citation&scisdr=CgXtancFEMnQ6JEbzKA:AAGBfm0AAAAAXn0e1KAkeISpbz5guKv36ocS7evTagDb&scisig=AAGBfm0AAAAAXn0e1M5fQe-_dJ7jK6a6aFB4Egq1BU_H&scisf=4&ct=citation&cd=-1&hl=en&scfhb=1"> [BibTex] </a>
+      <button class="accordion">
+      Abstract
+    </button>
+    </p>
+    <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"> This paper targets for the ordinal regression/classification, which objective is to learn a rule to predict labels from a discrete but ordered set. For instance, the classification for medical diagnosis usually involves inherently ordered labels corresponding to the level of health risk. Previous multi-task classifiers on ordinal data often use several binary classification branches to compute a series of cumulative probabilities. However, these cumulative probabilities are not guaranteed to be monotonically decreasing. It also introduces a large number of hyper-parameters to be fine-tuned manually. This paper aims to eliminate or at least largely reduce the effects of those problems. We propose a simple yet efficient way to rephrase the output layer of the conventional deep neural network. Besides, in order to alleviate the effects of label noise in ordinal datasets, we propose a unimodal label regularization strategy. It also explicitly encourages the class predictions to distribute on nearby classes of ground truth. We show that our methods lead to the state-of-the-art accuracy on the medical diagnose task (e.g., Diabetic Retinopathy and Ultrasound Breast dataset) as well as the face age prediction (e.g., Adience face and MORPH Album II) with very little additional cost. </div></p>
+    </tr>
+   </tbody></table>
+   <p class="margin-small">&nbsp;</p>
+
+
+
+
+    <table border="0">
+    <tbody><tr>
+     <td width="140"><a href="https://liu-xiaofeng.github.io/publications/Dependency-aware Attention Control for Image Set-based Face Recognition.pdf"><img src="https://liu-xiaofeng.github.io/publications/figs/Dependency-aware Attention Control for Image Set-based Face Recognition.png" border="1"width="210"></a></td>
+    <td width="20"></td>
+    <td valign="middle" width="900">
+    <p style="margin:0;" }><p > <a style="margin:0; font-size:100%; font-weight:bold" href="https://ieeexplore.ieee.org/abstract/document/8820094">Dependency-aware Attention Control for Image Set-based Face Recognition</a></b>
+      <br> Xiaofeng Liu, Zhenhua Guo, Jane You, B.V.K Kumar  <br> <i>IEEE Transactions on Information Forensics & Security (T-IFS)</i>, 2020, Volume 15, Pages 1501 - 1512.
+      <br> <a href="https://liu-xiaofeng.github.io/publications/Dependency-aware Attention Control for Image Set-based Face Recognition.pdf"> [PDF] </a>
+      <a href="https://scholar.googleusercontent.com/scholar.bib?q=info:Oct3yGiOq8UJ:scholar.google.com/&output=citation&scisdr=CgXtancFEMnQ6JElkKQ:AAGBfm0AAAAAXn0giKTrcm6Y2Nrhq45gDnFV6wupVpoR&scisig=AAGBfm0AAAAAXn0giDRTPRE2I6Lc32N9uO69FUtwfbgo&scisf=4&ct=citation&cd=-1&hl=en&scfhb=1"> [BibTex] </a>
+      <button class="accordion">
+      Abstract
+    </button>
+    </p>
+    <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"> This paper considers the problem of image set-based face verification and identification. Unlike traditional single sample (an image or a video) setting, this situation assumes the availability of a set of heterogeneous collection of orderless images and videos. The samples can be taken at different check points, different identity documents $etc$ . The importance of each image is usually considered either equal or based on a quality assessment of that image independent of other images and/or videos in that image set. How to model the relationship of orderless images within a set remains a challenge. We address this problem by formulating it as a Markov Decision Process (MDP) in a latent space. Specifically, we first propose a dependency-aware attention control (DAC) network, which uses actor-critic reinforcement learning for attention decision of each image to exploit the correlations among the unordered images. An off-policy experience replay is introduced to speed up the learning process. Moreover, the DAC is combined with a temporal model for videos using divide and conquer strategies. We also introduce a pose-guided representation (PGR) scheme that can further boost the performance at extreme poses. We propose a parameter-free PGR without the need for training as well as a novel metric learning-based PGR for pose alignment without the need for pose detection in testing stage. Extensive evaluations on IJB-A/B/C, YTF, Celebrity-1000 datasets demonstrate that our method outperforms many state-of-art approaches on the set-based as well as video-based face recognition databases. </div></p>
+    </tr>
+   </tbody></table>
+   <p class="margin-small">&nbsp;</p>
+
+
+    <table border="0">
+    <tbody><tr>
+     <td width="140"><a href="https://liu-xiaofeng.github.io/publications/Towards Disentangled Representations for Human Retargeting by Multi-view Learning.pdf"><img src="https://liu-xiaofeng.github.io/publications/figs/Towards Disentangled Representations for Human Retargeting by Multi-view Learning.png" border="1"width="210"></a></td>
+    <td width="20"></td>
+    <td valign="middle" width="900">
+    <p style="margin:0;" }><p > <a style="margin:0; font-size:100%; font-weight:bold" href="https://arxiv.org/pdf/1912.06265">Towards Disentangled Representations for Human Retargeting by Multi-view Learning</a></b>
+      <br> Chao Yang, Xiaofeng Liu, Qingming Tang, C-C Jay Kuo <br> <i>Submitted to IEEE T-MM</i>, arXiv:1912.06265.
+      <br> <a href="https://liu-xiaofeng.github.io/publications/Towards Disentangled Representations for Human Retargeting by Multi-view Learning.pdf"> [PDF] </a>
+      <a href="https://github.com/tyleransom/HS-sports-effects/releases/tag/1.0"> [BibTex] </a>
+      <button class="accordion">
+      Abstract
+    </button>
+    </p>
+    <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"> We study the problem of learning disentangled representations for data across multiple domains and its applications in human retargeting. Our goal is to map an input image to an identity-invariant latent representation that captures intrinsic factors such as expressions and poses. To this end, we present a novel multi-view learning approach that leverages various data sources such as images, keypoints, and poses. Our model consists of multiple id-conditioned VAEs for different views of the data. During training, we encourage the latent embeddings to be consistent across these views. Our observation is that auxiliary data like keypoints and poses contain critical, id-agnostic semantic information, and it is easier to train a disentangling CVAE on these simpler views to separate such semantics from other id-specific attributes. We show that training multi-view CVAEs and encourage latent-consistency guides the image encoding to preserve the semantics of expressions and poses, leading to improved disentangled representations and better human retargeting results. </div></p>
+    </tr>
+   </tbody></table>
+   <p class="margin-small">&nbsp;</p>
+
+
+    <table border="0">
+    <tbody><tr>
+    <td width="140"><a href="https://liu-xiaofeng.github.io/publications/Deep Verifier Networks.pdf"><img src="https://liu-xiaofeng.github.io/publications/figs/Deep Verifier Networks.png" border="1"width="210"></a></td>
+    <td width="20"></td>
+    <td valign="middle" width="900">
+    <p style="margin:0;" }><p > <a style="margin:0; font-size:100%; font-weight:bold" href="https://arxiv.org/abs/1911.07421">Deep Verifier Networks: Verification of Deep Discriminative Models with Deep Generative Models</a></b>
+      <br> Tong Che*, Xiaofeng Liu*, Site Li, Yubin Ge, Ruixiang Zhang, Caiming Xiong, Yoshua Bengio (*Equally) <br> <i>Submitted to ICML 2020,</i> arXiv:1911.07421.
+      <br> <a href="https://liu-xiaofeng.github.io/publications/Deep Verifier Networks.pdf"> [PDF] </a>
+      <a href="https://scholar.googleusercontent.com/scholar.bib?q=info:C4y16hyPrVwJ:scholar.google.com/&output=citation&scisdr=CgXtancFEMnQ6JEY0xc:AAGBfm0AAAAAXn0dyxcnRl-be8lDbCrUWdgEn6_VjFoh&scisig=AAGBfm0AAAAAXn0dy71cvqjw39qd8P2JRqlfHIHEcRbJ&scisf=4&ct=citation&cd=-1&hl=en"> [BibTex] </a>
+      <button class="accordion">
+      Abstract
+    </button>
+    </p>
+    <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"> AI Safety is a major concern in many deep learning applications such as autonomous driving. Given a trained deep learning model, an important natural problem is how to reliably verify the model's prediction. In this paper, we propose a novel framework --- deep verifier networks (DVN) to verify the inputs and outputs of deep discriminative models with deep generative models. Our proposed model is based on conditional variational auto-encoders with disentanglement constraints. We give both intuitive and theoretical justifications of the model. Our verifier network is trained independently with the prediction model, which eliminates the need of retraining the verifier network for a new model. We test the verifier network on out-of-distribution detection and adversarial example detection problems, as well as anomaly detection problems in structured prediction tasks such as image caption generation. We achieve state-of-the-art results in all of these problems. </div></p>
+    </tr>
+   </tbody></table>
+   <p class="margin-small">&nbsp;</p>
+
+
+
+
+
+    <table border="0">
+    <tbody><tr>
+    <td width="140"><a href=""><img src="" border="1"width="210"></a></td>
+    <td width="20"></td>
+    <td valign="middle" width="900">
+    <p style="margin:0;" }><p > <a style="margin:0; font-size:100%; font-weight:bold" href="">Light R-CNN: A simple but eﬃcient R-CNN based on reverse residual model</a></b>
+      <br> Peng Ding, Arjan Kuijper, Shihua Huang, Xiaofeng Liu, Ping Jia <br> <i>Submitted to Neural Network</i>.
+      <br> <a href=""> [PDF] </a>
+      <a href=""> [BibTex] </a>
+      <button class="accordion">
+      Abstract
+    </button>
+    </p>
+    <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;">  </div></p>
+    </tr>
+   </tbody></table>
+   <p class="margin-small">&nbsp;</p>
+
+
+
+
+
+
+
+  <hr>
+    <h2>2019</h2>
+
+
+
+
+         <table border="0">
+    <tbody><tr>
+    <td width="140"><a href="https://liu-xiaofeng.github.io/publications/Permutation-invariant Feature Restructuring for Correlation-aware Image Set-based Recognition.pdf"><img src="https://liu-xiaofeng.github.io/publications/figs/Permutation-invariant Feature Restructuring for Correlation-aware Image Set-based Recognition.png" border="1"width="210"></a></td>
+    <td width="20"></td>
+    <td valign="middle" width="900">
+    <p style="margin:0;" }><p > <a style="margin:0; font-size:100%; font-weight:bold" href="http://openaccess.thecvf.com/content_ICCV_2019/html/Liu_Permutation-Invariant_Feature_Restructuring_for_Correlation-Aware_Image_Set-Based_Recognition_ICCV_2019_paper.html">Permutation-invariant Feature Restructuring for Correlation-aware Image Set-based Recognition</a></b>
+      <br> Xiaofeng Liu, Zhenhua Guo, Site Li, Lingsheng Kong, Jia Ping, Jane You, Kumar B.V.K <br> <i>International Conference on Computer Vision (ICCV)</i>, 2019.
+      <br> <a href="https://liu-xiaofeng.github.io/publications/Permutation-invariant Feature Restructuring for Correlation-aware Image Set-based Recognition.pdf"> [PDF] </a>
+      <a href="https://scholar.googleusercontent.com/scholar.bib?q=info:aDWIBOqLV9oJ:scholar.google.com/&output=citation&scisdr=CgXtancFEMnQ6JEfI7s:AAGBfm0AAAAAXn0aO7uCJZjoBmZnNWqo24W_Ek3TL8U-&scisig=AAGBfm0AAAAAXn0aO7Nayk8dpbrXCQAtUL-SS0dW7xL0&scisf=4&ct=citation&cd=-1&hl=en&scfhb=1"> [BibTex] </a>
+      <button class="accordion">
+      Abstract
+    </button>
+    </p>
+    <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;">  We consider the problem of comparing the similarity of image sets with variable-quantity, quality and un-ordered heterogeneous images. We use feature restructuring to exploit the correlations of both inner&inter-set images. Specifically, the residual self-attention can effectively restructure the features using the other features within a set to emphasize the discriminative images and eliminate the redundancy. Then, a sparse/collaborative learning-based dependency-guided representation scheme reconstructs the probe features conditional to the gallery features in order to adaptively align the two sets. This enables our framework to be compatible with both verification and open-set identification. We show that the parametric self-attention network and non-parametric dictionary learning can be trained end-to-end by a unified alternative optimization scheme, and that the full framework is permutation-invariant. In the numerical experiments we conducted, our method achieves top performance on competitive image set/video-based face recognition and person re-identification benchmarks. </div></p>
+    </tr>
+   </tbody></table>
+   <p class="margin-small">&nbsp;</p>
+
+
+         <table border="0">
+    <tbody><tr>
+    <td width="140"><a href="https://liu-xiaofeng.github.io/publications/Conservative Wasserstein Training for Pose Estimation.pdf"><img src="https://liu-xiaofeng.github.io/publications/figs/Conservative Wasserstein Training for Pose Estimation.png" border="1"width="210"></a></td>
+    <td width="20"></td>
+    <td valign="middle" width="900">
+    <p style="margin:0;" }><p > <a style="margin:0; font-size:100%; font-weight:bold" href="http://openaccess.thecvf.com/content_ICCV_2019/html/Liu_Conservative_Wasserstein_Training_for_Pose_Estimation_ICCV_2019_paper.html">Conservative Wasserstein Training for Pose Estimation</a></b>
+      <br> Xiaofeng Liu, Yang Zou, Tong Che, Peng Ding, Ping Jia, Jane You, Kumar B.V.K <br> <i>International Conference on Computer Vision (ICCV) </i>, 2019.
+      <br> <a href="https://liu-xiaofeng.github.io/publications/Conservative Wasserstein Training for Pose Estimation.pdf"> [PDF] </a>
+      <a href="https://scholar.googleusercontent.com/scholar.bib?q=info:o1HLiJ6T_94J:scholar.google.com/&output=citation&scisdr=CgXtancFEMnQ6JEeFwE:AAGBfm0AAAAAXn0bDwGPU7XawonLA-5C3DxpVXTq_WI9&scisig=AAGBfm0AAAAAXn0bD4UQT7p0sqK4MLCBA1qa2CQ7fgRM&scisf=4&ct=citation&cd=-1&hl=en&scfhb=1"> [BibTex] </a>
+      <button class="accordion">
+      Abstract
+    </button>
+    </p>
+    <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;">  This paper targets the task with discrete and periodic class labels (eg, pose/orientation estimation) in the context of deep learning. The commonly used cross-entropy or regression loss is not well matched to this problem as they ignore the periodic nature of the labels and the class similarity, or assume labels are continuous value. We propose to incorporate inter-class correlations in a Wasserstein training framework by pre-defining (ie, using arc length of a circle) or adaptively learning the ground metric. We extend the ground metric as a linear, convex or concave increasing function wrt arc length from an optimization perspective. We also propose to construct the conservative target labels which model the inlier and outlier noises using a wrapped unimodal-uniform mixture distribution. Unlike the one-hot setting, the conservative label makes the computation of Wasserstein distance more challenging. We systematically conclude the practical closed-form solution of Wasserstein distance for pose data with either one-hot or conservative target label. We evaluate our method on head, body, vehicle and 3D object pose benchmarks with exhaustive ablation studies. The Wasserstein loss obtaining superior performance over the current methods, especially using convex mapping function for ground metric, conservative label, and closed-form solution. </div></p>
+    </tr>
+   </tbody></table>
+   <p class="margin-small">&nbsp;</p>
+
+
+         <table border="0">
+    <tbody><tr>
+    <td width="140"><a href="https://liu-xiaofeng.github.io/publications/Confidence Regularized Self-Training.pdf"><img src="https://liu-xiaofeng.github.io/publications/figs/Confidence Regularized Self-Training.png" border="1"width="210"></a></td>
+    <td width="20"></td>
+    <td valign="middle" width="900">
+    <p style="margin:0;" }><p > <a style="margin:0; font-size:100%; font-weight:bold" href="http://openaccess.thecvf.com/content_ICCV_2019/html/Zou_Confidence_Regularized_Self-Training_ICCV_2019_paper.html">Confidence Regularized Self-Training</a></b>
+      <br> Yang Zou, Zhiding Yu, Xiaofeng Liu*, Kumar B.V.K., Jinsong Wang, (*corresponding author) <br> <i>International Conference on Computer Vision (ICCV)</i>, 2019.
+      <br> <a href="https://liu-xiaofeng.github.io/publications/Confidence Regularized Self-Training.pdf"> [PDF] </a> <br> <a href="https://liu-xiaofeng.github.io/publications/Confidence Regularized Self-Training supply.pdf"> [Supply] </a>
+      <a href="https://scholar.googleusercontent.com/scholar.bib?q=info:Z24NQXJs6AsJ:scholar.google.com/&output=citation&scisdr=CgXtancFEMnQ6JEe2Cw:AAGBfm0AAAAAXn0bwCy_Qx8xymeXWy0Xn_blVgUln3jN&scisig=AAGBfm0AAAAAXn0bwOpvOC_XlyI32S0qNWthGpYucM8i&scisf=4&ct=citation&cd=-1&hl=en&scfhb=1"> [BibTex] </a>
+      <button class="accordion">
+      Abstract
+    </button>
+    </p>
+    <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"> Recent advances in domain adaptation show that deep self-training presents a powerful means for unsupervised domain adaptation. These methods often involve an iterative process of predicting on target domain and then taking the confident predictions as pseudo-labels for retraining. However, since pseudo-labels can be noisy, self-training can put overconfident label belief on wrong classes, leading to deviated solutions with propagated errors. To address the problem, we propose a confidence regularized self-training (CRST) framework, formulated as regularized self-training. Our method treats pseudo-labels as continuous latent variables jointly optimized via alternating optimization. We propose two types of confidence regularization: label regularization (LR) and model regularization (MR). CRST-LR generates soft pseudo-labels while CRST-MR encourages the smoothness on network output. Extensive experiments on image classification and semantic segmentation show that CRSTs outperform their non-regularized counterpart with state-of-the-art performance. The code and models of this work are available at https://github.com/yzou2/CRST.  </div></p>
+    </tr>
+   </tbody></table>
+   <p class="margin-small">&nbsp;</p>
+
+
+
+         <table border="0">
+    <tbody><tr>
+    <td width="140"><a href="https://liu-xiaofeng.github.io/publications/Unimodal-uniform Constrained Wasserstein Training for Medical Diagnosis.pdf"><img src="https://liu-xiaofeng.github.io/publications/figs/Unimodal-uniform Constrained Wasserstein Training for Medical Diagnosis.png" border="1"width="210"></a></td>
+    <td width="20"></td>
+    <td valign="middle" width="900">
+    <p style="margin:0;" }><p > <a style="margin:0; font-size:100%; font-weight:bold" href="http://openaccess.thecvf.com/content_ICCVW_2019/html/VRMI/Liu_Unimodal-Uniform_Constrained_Wasserstein_Training_for_Medical_Diagnosis_ICCVW_2019_paper.html">Unimodal-uniform Constrained Wasserstein Training for Medical Diagnosis</a></b>
+      <br> Xiaofeng Liu, Xu Han, Yukai Qiao, Yi Ge, Lu Jun <br> <i>International Conference on Computer Vision (ICCV)</i>, 2019 Workshops.
+      <br> <a href="https://liu-xiaofeng.github.io/publications/Unimodal-uniform Constrained Wasserstein Training for Medical Diagnosis.pdf"> [PDF] </a>
+      <a href="https://scholar.googleusercontent.com/scholar.bib?q=info:XpXPO3Q3S4wJ:scholar.google.com/&output=citation&scisdr=CgXtancFEMnQ6JEcHUo:AAGBfm0AAAAAXn0ZBUqNWci-RYqFc17b9sRV3DlxWlQT&scisig=AAGBfm0AAAAAXn0ZBX5wKxSiectPmhq12FQbFKmEaTBL&scisf=4&ct=citation&cd=-1&hl=en&scfhb=1"> [BibTex] </a>
+      <button class="accordion">
+      Abstract
+    </button>
+    </p>
+    <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;">  The labels in medical diagnosis task are usually discrete and successively distributed. For example, the Diabetic Retinopathy Diagnosis (DR) involves five health risk levels: no DR (0), mild DR (1), moderate DR (2), severe DR (3) and proliferative DR (4). This labeling system is common for medical disease. Previous methods usually construct a multi-binary-classification task or propose some re-parameter schemes in the output unit. In this paper, we target on this task from the perspective of loss function. More specifically, the Wasserstein distance is utilized as an alternative, explicitly incorporating the inter-class correlations by pre-defining its ground metric. Then, the ground metric which serves as a linear, convex or concave increasing function w.r.t. the Euclidean distance in a line is explored from an optimization perspective. Meanwhile, this paper also proposes of constructing the smoothed target labels that model the inlier and outlier noises by using a unimodal-uniform mixture distribution. Different from the one-hot setting, the smoothed label endues the computation of Wasserstein distance with more challenging features. With either one-hot or smoothed target label, this paper systematically concludes the practical closed-form solution. We evaluate our method on several medical diagnosis tasks (e.g., Diabetic Retinopathy and Ultrasound Breast dataset) and achieve state-of-the-art performance. </div></p>
+    </tr>
+   </tbody></table>
+   <p class="margin-small">&nbsp;</p>
+
+
+
+          <table border="0">
+    <tbody><tr>
+    <td width="140"><a href="http://information.casip.ac.cn/caspatent/showdetails.xhtml?para=CN201910491484.7&ptype=patent"><img src="https://liu-xiaofeng.github.io/publications/figs/CN110189660A.png" border="1"width="210"></a></td>
+    <td width="20"></td>
+    <td valign="middle" width="900">
+    <p style="margin:0;" }><p > <a style="margin:0; font-size:100%; font-weight:bold" href="http://information.casip.ac.cn/caspatent/showdetails.xhtml?para=CN201910491484.7&ptype=patent">一种沉浸式全景浮空成像系统（Immersive panoramic floating imaging system）</a></b>
+      <br> Xiaofeng Liu, Yang Zou, Lingsheng Kong, Zhihui Diao, Junliang Yan, Jun Wang, Site Li, Ping Jia, Jane You  <br>  <i> CN Patent </i>CN110189660A.
+      <br> <a href="http://information.casip.ac.cn/caspatent/showdetails.xhtml?para=CN201910491484.7&ptype=patent"> [PDF] </a>
+      <button class="accordion">
+      Abstract
+    </button>
+    </p>
+    <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;">  本发明公开了一种沉浸式全景浮空成像系统，包括：用于将待观看全景图像进行分区处理、并将分区处理之后的全景图像进行分区显示的显示模块、用于将显示模块发出的光线进行分光处理的分光模块、以及用于使分光模块反射的光线原路返回并穿过分光模块后汇聚成全景浮空图像的逆反射幕墙；分光处理包括使显示模块发出的光线穿过分光模块、以及将显示模块发出的光线进行反射。相比于现有技术，本发明提供的沉浸式全景浮空成像系统所形成的全景浮空实像，观测者可以被浮空实像环绕进行360°观看，能够为观看者带来沉浸式的全景观感，应用于舞台、展览等场景时，浮空实像的存在可以带来大视场、多方位的沉浸式观感。 </div></p>
+    </tr>
+   </tbody></table>
+   <p class="margin-small">&nbsp;</p>
+
+
+
+
+          <table border="0">
+    <tbody><tr>
+    <td width="140"><a href="https://zhuanli.tianyancha.com/f75ee42ce1d8b4a28bc93eadb7e879ee"><img src="https://liu-xiaofeng.github.io/publications/figs/CN110139092A.png" border="1"width="210"></a></td>
+    <td width="20"></td>
+    <td valign="middle" width="900">
+    <p style="margin:0;" }><p > <a style="margin:0; font-size:100%; font-weight:bold" href="https://zhuanli.tianyancha.com/f75ee42ce1d8b4a28bc93eadb7e879ee">立体显示系统、图像处理方法、装置、设备及存储介质 （Stereoscopic display system, image processing method, device, equipment and storage medium）</a></b>
+      <br>  <i> CN Patent </i>CN110139092A.
+      <br> <a href="https://zhuanli.tianyancha.com/f75ee42ce1d8b4a28bc93eadb7e879ee"> [PDF] </a>
+      <button class="accordion">
+      Abstract
+    </button>
+    </p>
+    <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"> 本发明提供了一种立体显示系统、图像处理方法、装置、设备及存储介质，包括曲面显示屏、曲面视差光栅和图像处理模块，曲面显示屏由若干个依次以列排列设置的显示像素单元组成，显示像素单元包括以列顺次设置的第一像素、第二像素和第三像素，第一像素用于显示右眼视差图像，第三像素用于显示左眼视差图像，第二像素为全黑像素；图像处理模块用于根据待处理的图像源生成与曲面显示屏的显示像素单元的排列结构对应的视差图像；曲面视差光栅，用于控制曲面显示屏上显示的视差图像所发出光线的可通过区域。本技术方案通过将曲面屏和曲面视差光栅相结合，提高了立体显示系统的自由度，为观看者带来沉浸式的自由立体观感。  </div></p>
+    </tr>
+   </tbody></table>
+   <p class="margin-small">&nbsp;</p>
+
+
+
+         <table border="0">
+    <tbody><tr>
+    <td width="140"><a href="https://liu-xiaofeng.github.io/publications/RESEARCH ON THE TECHNOLOGY OF DEEP LEARNING BASED FACE IMAGE RECOGNITION.pdf"><img src="https://liu-xiaofeng.github.io/publications/figs/thesis.png" border="1"width="210"></a></td>
+    <td width="20"></td>
+    <td valign="middle" width="900">
+    <p style="margin:0;" }><p > <a style="margin:0; font-size:100%; font-weight:bold" href="https://kns.cnki.net/KCMS/detail/detail.aspx?dbcode=CDFD&dbname=CDFDLAST2019&filename=1019042153.nh&v=Mjk3MzkxRnJDVVI3cWZaT1JvRmkzZ1Y3N0pWRjI2RjdPOEhOREpySkViUElSOGVYMUx1eFlTN0RoMVQzcVRyV00=">Research on the technology of deep learning based face image recognition</a></b>
+      <br> Xiaofeng Liu<br> <i>PhD Thesis</i>, University of Chinese Academy of Sciences.
+      <br> <a href="https://liu-xiaofeng.github.io/publications/RESEARCH ON THE TECHNOLOGY OF DEEP LEARNING BASED FACE IMAGE RECOGNITION.pdf"> [PDF] </a>
+      <a href="https://scholar.googleusercontent.com/scholar.bib?q=info:9SwQjVd663MJ:scholar.google.com/&output=citation&scisdr=CgXtancFEMnQ6JETUvA:AAGBfm0AAAAAXn0WSvC0JRlhBH6CkUB_rl6hsDDlCE0x&scisig=AAGBfm0AAAAAXn0WSkx-5CnbfP7RvfSvIjeByXuIrTDC&scisf=4&ct=citation&cd=-1&hl=en"> [BibTex] </a>
+      <button class="accordion">
+      Abstract
+    </button>
+    </p>
+    <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"> 随着人工智能(Artificial intelligence)和计算机视觉(Computer vision)等技术的飞速发展,让机器或计算设备拥有感知图像内容的能力日益成为当今热点研究课题。其中人脸图像因其丰富的信息和广阔的应用前景更是一个活跃的分支。人脸图像识别只要是指通过对人的面部图像、视频或图片和视频的集合进行分析,自动的推断其身份、表情以及年龄、性别等属性。人脸图片通常糅合了包括身份、表情、年龄、性别、光照、角度等各种信息,如何提取与识别任务相关的特征(例如身份信息对应人脸识别,表情信息对应表情识别)是当前基于深度学习的模式识别算法的主要研究方向。本文进一步的探究了如何可控的引入对某些不相关属性的不变性先验知识,使得提取出的针对主识别任务的特征有更好的可辨别性和泛化能力。例如表情识别的特征应该对身份变化鲁棒,而身份识别的特征应该对表情、光照、化妆等变化鲁棒。针对这一目标以及人脸表情识别和人脸识别这两个重要应用,本文提出了自适应深度度量学习以及对抗训练两种方法用以解构表情与身份信息或身份与某些属性信息。随着数字媒体内容的爆炸性增长,使用图片和视频的集合进行身份识别更符合实际的生物特征识别应用。例如查询图片或视频帧可以从多个摄像头所拍摄到的某人所获得,而候选图片或视频帧也可由该人历史上各种证件照和其他场合所拍摄照片组成。相较于传统的图片与图片,或视频与视频的相似度对比,该设定可以提供更丰富的信息,但也给信息融合带来了挑战。本文提出了一种基于增强学习算法的图片集人脸识别方案。本文的主要贡献可概括为:1.人类的面部表情是传递情感信息的重要途径。基于自适应度量学习的去除身份信息干扰的人脸(图片/视频)表情识别特征提取。第二章提出了一种新的深度尺度学习算法(N+M)元组簇损失,解决了该领域长期存在的锚点选择问题并大大减少了运算量。其阈值参数可自适应学习。通过合理的设置负样本为同一个体的其他表情图像能有效地实现难样本挖掘,并明确的消除身份信息的干扰。在CK+,MMI和SFEW数据集上的实验结果表明其可以有效的利用人脸表情数据库中常有的身份标记从而有效地提高表情识别任务的精度。2.考虑到来自同一个个体的中性表情图片是较好的参考图像,但不是所有数据集中都普遍存在,第三章提出了一种难样本生成方法并配以径向度量学习。通过将查询图片与基于其生成的同身份中性脸参考图片进行比较而去除身份信息的影响。其难样本生成是基于像素级对抗生成网络以去除表情、姿态等属性干扰的身份不变归一化脸生成。通过在CK+,MMI和SFEW数据集上的实验表明难样本生成可以利用远大于表情识别库的人脸身份识别库中的正面中性图片以形成参考图像的先验知识,其不仅能提升识别效果,还能相较于传统的度量学习大大缩短训练时间。3.第四章系统性的总结了人脸图片中各因素之间的关系,并定义到更广泛的多标签数据上。提出了一种基于特征级对抗训练的解构网络,将输入图片分解为对主识别任务(例如身份识别)具有辨识力的特征,期望对其鲁棒的有标签语义属性(如可表情、光照、化妆等属性),以及期望对其鲁棒的无标签或难以量化的因素(如背景等)。三者互补而又互相边际独立。4.第五章提出了一种基于深度增强学习的算法用于探索集中各图片的重要性以及互补性。通过在IJB-A/B/C系列基于集的人脸识别数据集,基于视频的Celebrity-1000数据集,以及行人重试别任务上的实验证实了该算法的有效性。  </div></p>
+    </tr>
+   </tbody></table>
+   <p class="margin-small">&nbsp;</p>
+
+
+
+
+
+         <table border="0">
+    <tbody><tr>
+    <td width="140"><a href="https://liu-xiaofeng.github.io/publications/Feature-level Frankenstein: Eliminating Variations for Discriminative Recognition.pdf"><img src="https://liu-xiaofeng.github.io/publications/figs/frankstein-cvpr.png" border="1"width="210"></a></td>
+    <td width="20"></td>
+    <td valign="middle" width="900">
+    <p style="margin:0;" }><p > <a style="margin:0; font-size:100%; font-weight:bold" href="https://liu-xiaofeng.github.io/publications/A joint optimization.pdf">Feature-level Frankenstein: Eliminating Variations for Discriminative Recognition</a></b>
+      <br> Xiaofeng Liu, Site Li, Lingsheng Kong, Wanqing Xie, Ping Jia, Jane You, B. V. K. Vijaya Kumar <br> <i>IEEE Conference on Computer Vision and Pattern Recognition (CVPR)</i>, 2019.
+      <br> <a href="https://liu-xiaofeng.github.io/publications/Feature-level Frankenstein: Eliminating Variations for Discriminative Recognition.pdf"> [PDF] </a>
+      <a href="https://scholar.googleusercontent.com/scholar.bib?q=info:cOoUOp4AuwQJ:scholar.google.com/&output=citation&scisdr=CgXtancFEMnQ6JE1j6U:AAGBfm0AAAAAXn0wl6XSvXWXCDqAACcGdWHKRPnKjTcc&scisig=AAGBfm0AAAAAXn0wl48GQESQpMyGlN87jo5oB7Bjrujv&scisf=4&ct=citation&cd=-1&hl=en&scfhb=1"> [BibTex] </a>
+      <button class="accordion">
+      Abstract
+    </button>
+    </p>
+    <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"> Recent successes of deep learning-based recognition rely on maintaining the content related to the main-task label. However, how to explicitly dispel the noisy signals for better generalization remains an open issue. We systematically summarize the detrimental factors as task-relevant/irrelevant semantic variations and unspecified latent variation. In this paper, we cast these problems as an adversarial minimax game in the latent space. Specifically, we propose equipping an end-to-end conditional adversarial network with the ability to decompose an input sample into three complementary parts. The discriminative representation inherits the desired invariance property guided by prior knowledge of the task, which is marginally independent to the task-relevant/irrelevant semantic and latent variations. Our proposed framework achieves top performance on a serial of tasks, including digits recognition, lighting, makeup, disguise-tolerant face recognition, and facial attributes recognition.  </div></p>
+    </tr>
+   </tbody></table>
+   <p class="margin-small">&nbsp;</p>
+
+
+
+
+         <table border="0">
+    <tbody><tr>
+    <td width="140"><a href="https://liu-xiaofeng.github.io/publications/Hard negative generation for identity-disentangled facial expression recognition.pdf"><img src="https://liu-xiaofeng.github.io/publications/figs/Hard negative generation for identity-disentangled facial expression recognition.png" border="1"width="210"></a></td>
+    <td width="20"></td>
+    <td valign="middle" width="900">
+    <p style="margin:0;" }><p > <a style="margin:0; font-size:100%; font-weight:bold" href="https://www.sciencedirect.com/science/article/abs/pii/S0031320318303819">Hard negative generation for identity-disentangled facial expression recognition</a></b>
+      <br> Xiaofeng Liu, BVK Vijaya Kumar, Ping Jia, Jane You <br> <i>Pattern Recognition </i>, 2019.
+      <br> <a href="https://liu-xiaofeng.github.io/publications/Hard negative generation for identity-disentangled facial expression recognition.pdf"> [PDF] </a>
+      <a href="https://scholar.googleusercontent.com/scholar.bib?q=info:nWAMnH5EE6YJ:scholar.google.com/&output=citation&scisdr=CgXtancFEMnQ6JERvm8:AAGBfm0AAAAAXn0Upm87byxbzhy0q92FAV1Ih-aDhlzG&scisig=AAGBfm0AAAAAXn0UpiYkyE2fd-dlInUfMJ9WkJh-u9Db&scisf=4&ct=citation&cd=-1&hl=en&scfhb=1"> [BibTex] </a>
+      <button class="accordion">
+      Abstract
+    </button>
+    </p>
+    <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;">  Various factors such as identity-specific attributes, pose, illumination and expression affect the appearance of face images. Disentangling the identity-specific factors is potentially beneficial for facial expression recognition (FER). Existing image-based FER systems either use hand-crafted or learned features to represent a single face image. In this paper, we propose a novel FER framework, named identity-disentangled facial expression recognition machine (IDFERM), in which we untangle the identity from a query sample by exploiting its difference from its references (e.g., its mined or generated frontal and neutral normalized faces). We demonstrate a possible ‘recognition via generation’ scheme which consists of a novel hard negative generation (HNG) network and a generalized radial metric learning (RML) network. For FER, generated normalized faces are used as hard negative samples for metric learning. The difficulty of threshold validation and anchor selection are alleviated in RML and its distance comparisons are fewer than those of traditional deep metric learning methods. The expression representations of RML achieve superior performance on the CK + , MMI and Oulu-CASIA datasets, given a single query image for testing. </div></p>
+    </tr>
+   </tbody></table>
+   <p class="margin-small">&nbsp;</p>
+
+
+
+
+         <table border="0">
+    <tbody><tr>
+    <td width="140"><a href="https://liu-xiaofeng.github.io/publications/COL201917012301.pdf"><img src="https://liu-xiaofeng.github.io/publications/figs/COL201917012301.jpg" border="1"width="210"></a></td>
+    <td width="20"></td>
+    <td valign="middle" width="900">
+    <p style="margin:0;" }><p > <a style="margin:0; font-size:100%; font-weight:bold" href="https://www.osapublishing.org/col/abstract.cfm?uri=col-17-1-012301">Electrically tunable holographic waveguide display based on holographic polymer dispersed liquid crystal grating</a></b>
+      <br> Zhihui Diao, Lingsheng Kong, Junliang Yan, Junda Guo, Xiaofeng Liu, Li Xuan, Lei Yu <br> <i> Optics Letters </i>, 2019.
+      <br> <a href="https://liu-xiaofeng.github.io/publications/COL201917012301.pdf"> [PDF] </a>
+      <a href="https://github.com/tyleransom/HS-sports-effects/releases/tag/1.0"> [BibTex] </a>
+      <button class="accordion">
+      Abstract
+    </button>
+    </p>
+    <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;">  In this Letter, we present an electrically tunable holographic waveguide display (HWD) based on two slanted holographic polymer dispersed liquid crystal (HPDLC) gratings. Experimental results show that a see-through effect is obtained in the HWD that both the display light from HWD and the ambient light can be clearly seen simultaneously. By applying an external electric field, the output intensity of the display light can be modulated, which is attributed to the field-induced rotation of the liquid crystal molecules in the two HPDLC gratings. We also show that this electrically tunable performance enables the HWD to adapt to different ambient light conditions. This study provides some ideas towards the development of HWD and its application in augmented reality.
+
+ </div></p>
+    </tr>
+   </tbody></table>
+   <p class="margin-small">&nbsp;</p>
+
+
+
+
+         <table border="0">
+    <tbody><tr>
+    <td width="140"><a href="https://liu-xiaofeng.github.io/publications/Attention Control with Metric Learning Alignment for Image Set-based Recognition.pdf"><img src="https://liu-xiaofeng.github.io/publications/figs/Attention Control with Metric Learning Alignment for Image Set-based Recognition.png" border="1"width="210"></a></td>
+    <td width="20"></td>
+    <td valign="middle" width="900">
+    <p style="margin:0;" }><p > <a style="margin:0; font-size:100%; font-weight:bold" href="https://arxiv.org/abs/1908.01872">Attention Control with Metric Learning Alignment for Image Set-based Recognition</a></b>
+      <br> Xiaofeng Liu, Zhenhua Guo, Jane You, B.V.K Kumar<br> <i> arXiv:1908.01872</i>, 2018.
+      <br> <a href="https://liu-xiaofeng.github.io/publications/Attention Control with Metric Learning Alignment for Image Set-based Recognition.pdf"> [PDF] </a>
+      <a href="https://scholar.googleusercontent.com/scholar.bib?q=info:fH56htilpnMJ:scholar.google.com/&output=citation&scisdr=CgXtancFEMnQ6JEWI4o:AAGBfm0AAAAAXn0TO4pOIVncYMDeVcXHr0Fin5AmAwvk&scisig=AAGBfm0AAAAAXn0TO-chMankiMzZ2F7k6Ke-_Ctd1toT&scisf=4&ct=citation&cd=-1&hl=en&scfhb=1"> [BibTex] </a>
+      <button class="accordion">
+      Abstract
+    </button>
+    </p>
+    <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"> This paper considers the problem of image set-based face verification and identification. Unlike traditional single sample (an image or a video) setting, this situation assumes the availability of a set of heterogeneous collection of orderless images and videos. The samples can be taken at different check points, different identity documents etc. The importance of each image is usually considered either equal or based on a quality assessment of that image independent of other images and/or videos in that image set. How to model the relationship of orderless images within a set remains a challenge. We address this problem by formulating it as a Markov Decision Process (MDP) in a latent space. Specifically, we first propose a dependency-aware attention control (DAC) network, which uses actor-critic reinforcement learning for attention decision of each image to exploit the correlations among the unordered images. An off-policy experience replay is introduced to speed up the learning process. Moreover, the DAC is combined with a temporal model for videos using divide and conquer strategies. We also introduce a pose-guided representation (PGR) scheme that can further boost the performance at extreme poses. We propose a parameter-free PGR without the need for training as well as a novel metric learning-based PGR for pose alignment without the need for pose detection in testing stage. Extensive evaluations on IJB-A/B/C, YTF, Celebrity-1000 datasets demonstrate that our method outperforms many state-of-art approaches on the set-based as well as video-based face recognition databases.  </div></p>
+    </tr>
+   </tbody></table>
+   <p class="margin-small">&nbsp;</p>
+
+
+
+   <hr>
+    <h2>2018</h2>
+
+         <table border="0">
+    <tbody><tr>
+    <td width="140"><a href="https://liu-xiaofeng.github.io/publications/Dependency-Aware Attention Control for Unconstrained Face Recognition with Image Sets.pdf"><img src="https://liu-xiaofeng.github.io/publications/figs/Dependency-Aware Attention Control for Unconstrained Face Recognition with Image Sets.jpg" border="1"width="210"></a></td>
+    <td width="20"></td>
+    <td valign="middle" width="900">
+    <p style="margin:0;" }><p > <a style="margin:0; font-size:100%; font-weight:bold" href="http://openaccess.thecvf.com/content_ECCV_2018/html/Xiaofeng_Liu_Dependency-aware_Attention_Control_ECCV_2018_paper.html">Dependency-aware Attention Control for Unconstrained Face Recognition with Image Sets</a></b>
+      <br> Xiaofeng Liu, B.V.K. Vijaya Kumar, Chao Yang, Qingming Tang, Jane You <br> <i>European Conference on Computer Vision (ECCV)</i>, 2018.
+      <br> <a href="https://liu-xiaofeng.github.io/publications/Dependency-Aware Attention Control for Unconstrained Face Recognition with Image Sets.pdf"> [PDF] </a>
+      <a href="https://scholar.googleusercontent.com/scholar.bib?q=info:ibjeDO5e410J:scholar.google.com/&output=citation&scisdr=CgXtancFEMnQ6JEXTB4:AAGBfm0AAAAAXn0SVB4GW_SxNCQjLubY2IkwRxD5-D27&scisig=AAGBfm0AAAAAXn0SVIqtnBLAQGXtWzd0R3Jr42ZDnoyq&scisf=4&ct=citation&cd=-1&hl=en&scfhb=1"> [BibTex] </a>
+      <button class="accordion">
+      Abstract
+    </button>
+    </p>
+    <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"> This paper targets the problem of image set-based face verification and identification. Unlike traditional single media (an image or video) setting, we encounter a set of heterogeneous contents containing orderless images and videos. The importance of each image is usually considered either equal or based on their independent quality assessment. How to model the relationship of orderless images within a set remains a challenge. We address this problem by formulating it as a Markov Decision Process (MDP) at the feature level. Specifically, we propose a dependency-aware attention control (DAC) network, which resorts to actor-critic reinforcement learning for sequential attention decision of each image embedding to fully exploit the rich correlation cues among the unordered images. Moreover, its sample-efficient variant with off-policy experience replay is introduced to speed up the learning process. The pose-guided representation scheme can further boost the performance at the extremes of the pose variation. We show that our method leads to the state-of-the-art accuracy on IJB-A dataset and also generalizes well in several video-based face recognition tasks, extit {eg}, YTF and Celebrity-1000.  </div></p>
+    </tr>
+   </tbody></table>
+   <p class="margin-small">&nbsp;</p>
+
+
+
+
+
+
+
+         <table border="0">
+    <tbody><tr>
+    <td width="140"><a href="https://liu-xiaofeng.github.io/publications/Contextual-based Image Inpainting Infer, Match, and Translate.pdf"><img src="https://liu-xiaofeng.github.io/publications/figs/context-eccv.png" border="1"width="210"></a></td>
+    <td width="20"></td>
+    <td valign="middle" width="900">
+    <p style="margin:0;" }><p > <a style="margin:0; font-size:100%; font-weight:bold" href="http://openaccess.thecvf.com/content_ECCV_2018/html/Yuhang_Song_Contextual_Based_Image_ECCV_2018_paper.html">Contextual-based Image Inpainting: Infer, Match, and Translate</a></b>
+      <br> Yuhang Song, Chao Yang, Zhe Lin, Xiaofeng Liu, Qin Huang, Hao Li, C-C Jay Kuo <br> <i>European Conference on Computer Vision (ECCV) </i>, 2018.
+      <br> <a href="https://liu-xiaofeng.github.io/publications/Contextual-based Image Inpainting Infer, Match, and Translate.pdf"> [PDF] </a>
+      <a href="https://scholar.googleusercontent.com/scholar.bib?q=info:b723__cSDXgJ:scholar.google.com/&output=citation&scisdr=CgXtancFEMnQ6JEUh5k:AAGBfm0AAAAAXn0Rn5kjdmRvxRZV3YDrWGL2cRAJCTpM&scisig=AAGBfm0AAAAAXn0Rnwt0ORRe-QQP9j7SdVk0Ojf_esAT&scisf=4&ct=citation&cd=-1&hl=en&scfhb=1"> [BibTex] </a>
+      <button class="accordion">
+      Abstract
+    </button>
+    </p>
+    <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;">  We study the task of image inpainting, which is to fill in the missing region of an incomplete image with plausible contents. To this end, we propose a learning-based approach to generate visually coherent completion given a high-resolution image with missing components. In order to overcome the difficulty to directly learn the distribution of high-dimensional image data, we divide the task into inference and translation as two separate steps and model each step with a deep neural network. We also use simple heuristics to guide the propagation of local textures from the boundary to the hole. We show that, by using such techniques, inpainting reduces to the problem of learning two image-feature translation functions in much smaller space and hence easier to train. We evaluate our method on several public datasets and show that we generate results of better visual quality than previous state-of-the-art methods. </div></p>
+    </tr>
+   </tbody></table>
+   <p class="margin-small">&nbsp;</p>
+
+
+
+         <table border="0">
+    <tbody><tr>
+    <td width="140"><a href="https://liu-xiaofeng.github.io/publications/Ordinal Regression with Neuron Stick-Breaking for Medical Diagnosis.pdf"><img src="https://liu-xiaofeng.github.io/publications/figs/ordinal-eccvw.png" border="1"width="210"></a></td>
+    <td width="20"></td>
+    <td valign="middle" width="900">
+    <p style="margin:0;" }><p > <a style="margin:0; font-size:100%; font-weight:bold" href="http://openaccess.thecvf.com/content_eccv_2018_workshops/w33/html/Liu_Ordinal_Regression_with_Neuron_Stick-breaking_for_Medical_Diagnosis_ECCVW_2018_paper.html">Ordinal Regression with Neuron Stick-Breaking for Medical Diagnosis</a></b>
+      <br> Xiaofeng Liu, Yang Zou, Yuhang Song, Chao Yang, Jane You, BVK Vijaya Kumar <br> <i>European Conference on Computer Vision (ECCV) </i>, 2018 Workshops.
+      <br> <a href="https://liu-xiaofeng.github.io/publications/Ordinal Regression with Neuron Stick-Breaking for Medical Diagnosis.pdf"> [PDF] </a>
+      <a href="https://scholar.googleusercontent.com/scholar.bib?q=info:uAWFNO2zT1gJ:scholar.google.com/&output=citation&scisdr=CgXtancFEMnQ6JEV5ws:AAGBfm0AAAAAXn0Q_wu3vnNZyfYAMyYBjGTTmJvPI4L7&scisig=AAGBfm0AAAAAXn0Q_1IUOkdTP539prNEd-Z-T30TsRst&scisf=4&ct=citation&cd=-1&hl=en&scfhb=1"> [BibTex] </a>
+      <button class="accordion">
+      Abstract
+    </button>
+    </p>
+    <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"> The classification for medical diagnosis usually involves inherently ordered labels corresponding to the level of health risk. Previous multi-task classifiers on ordinal data often use several binary classification branches to compute a series of cumulative probabilities. However, these cumulative probabilities are not guaranteed to be monotonically decreasing. It also introduces a large number of hyper-parameters to be fine-tuned manually. This paper aims to eliminate or at least largely reduce the effects of those problems. We propose a simple yet efficient way to rephrase the output layer of the conventional deep neural network. We show that our methods lead to the state-of-the-art accuracy on Diabetic Retinopathy dataset and Ultrasound Breast dataset with very little additional cost.  </div></p>
+    </tr>
+   </tbody></table>
+   <p class="margin-small">&nbsp;</p>
+
+
+    <table border="0">
+    <tbody><tr>
+    <td width="140"><a href="https://liu-xiaofeng.github.io/publications/Data Augmentation via Latent Space Interpolation for Image Classification.pdf"><img src="https://liu-xiaofeng.github.io/publications/figs/Data Augmentation via Latent Space Interpolation for Image Classification.jpg" border="1"width="210"></a></td>
+    <td width="20"></td>
+    <td valign="middle" width="900">
+    <p style="margin:0;" }><p > <a style="margin:0; font-size:100%; font-weight:bold" href="https://ieeexplore.ieee.org/abstract/document/8545506">Data Augmentation via Latent Space Interpolation for Image Classification</a></b>
+      <br> Xiaofeng Liu, Yang Zou, Lingsheng Kong, Zhihui Diao, Junliang Yan, Jun Wang, Site Li, Ping Jia, Jane You <br> <i>International Conference on Pattern Recognition (ICPR) </i>, 2018.
+      <br> <a href="https://liu-xiaofeng.github.io/publications/Data Augmentation via Latent Space Interpolation for Image Classification.pdf"> [PDF] </a>
+      <a href="https://scholar.googleusercontent.com/scholar.bib?q=info:7vetsBzWdbEJ:scholar.google.com/&output=citation&scisdr=CgXtancFEMnQ6JEVRTA:AAGBfm0AAAAAXn0QXTCEA8mQGkXOwyGxa36oCfhWUcTw&scisig=AAGBfm0AAAAAXn0QXa0CD21-zj-mOVHOsIZlkAw7hwJp&scisf=4&ct=citation&cd=-1&hl=en&scfhb=1"> [BibTex] </a>
+      <button class="accordion">
+      Abstract
+    </button>
+    </p>
+    <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;">  Effective training of the deep neural networks requires much data to avoid underdetermined and poor generalization. Data Augmentation alleviates this by using existing data more effectively. However standard data augmentation produces only limited plausible alternative data by for example, flipping, distorting, adding noise to, cropping a patch from the original samples. In this paper, we introduce the adversarial autoencoder (AAE) to impose the feature representations with uniform distribution and apply the linear interpolation on latent space, which is potential to generate a much broader set of augmentations for image classification. As a possible “recognition via generation” framework, it has potentials for several other classification tasks. Our experiments on the ILSVRC 2012, CIFAR-10 datasets show that the latent space interpolation (LSI) improves the generalization and performance of state-of-the-art deep neural networks. </div></p>
+    </tr>
+   </tbody></table>
+   <p class="margin-small">&nbsp;</p>
+
+
+
+
+
+
+
+    <table border="0">
+    <tbody><tr>
+    <td width="140"><a href="https://liu-xiaofeng.github.io/publications/A joint optimization framework of low-dimensional projection and collaborative representation for discriminative classification.pdf"><img src="https://liu-xiaofeng.github.io/publications/figs/joint-icpr.png" border="1"width="210"></a></td>
+    <td width="20"></td>
+    <td valign="middle" width="900">
+    <p style="margin:0;" }><p > <a style="margin:0; font-size:100%; font-weight:bold" href="https://ieeexplore.ieee.org/abstract/document/8545267">A joint optimization framework of low-dimensional projection and collaborative representation for discriminative classification</a></b>
+      <br> Xiaofeng Liu, Zhaofeng Li, Lingsheng Kong, Zhihui Diao, Junliang Yan, Yang Zou, Chao Yang, Ping Jia, Jane You <br> <i>International Conference on Pattern Recognition (ICPR) </i>, 2018 1493-1498.
+      <br> <a href="https://liu-xiaofeng.github.io/publications/A joint optimization framework of low-dimensional projection and collaborative representation for discriminative classification.pdf"> [PDF] </a>
+      <a href="https://scholar.googleusercontent.com/scholar.bib?q=info:edRbYvFJZC4J:scholar.google.com/&output=citation&scisdr=CgXtancFEMnQ6JEI7NU:AAGBfm0AAAAAXn0N9NVtq7Xl0AZKp_MaLbqionabM_-9&scisig=AAGBfm0AAAAAXn0N9ASD3bM0RZ3_OhP3Y0H4dwozuDOT&scisf=4&ct=citation&cd=-1&hl=en&scfhb=1"> [BibTex] </a>
+      <button class="accordion">
+      Abstract
+    </button>
+    </p>
+    <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"> Various representation-based methods have been developed and shown great potential for pattern classification. To further improve their discriminability, we propose a Bi-level optimization framework in terms of both low-dimensional projection and collaborative representation. Specifically, during the projection phase, we try to minimize the intra-class similarity and inter-class dissimilarity, while in the representation phase, our goal is to achieve the lowest correlation of the representation results. Solving this joint optimization mutually reinforces both aspects of feature projection and representation. Experiments on face recognition, object categorization and scene classification dataset demonstrate remarkable performance improvements led by the proposed framework. </div></p>
+    </tr>
+   </tbody></table>
+   <p class="margin-small">&nbsp;</p>
+
+
+
+    <table border="0">
+    <tbody><tr>
+    <td width="140"><a href="https://liu-xiaofeng.github.io/publications/Image Inpainting using Block-wise Procedural Training with Annealed Adversarial Counterpar.pdf"><img src="https://liu-xiaofeng.github.io/publications/figs/block-wise.png" border="1"width="210"></a></td>
+    <td width="20"></td>
+    <td valign="middle" width="900">
+    <p style="margin:0;" }><p > <a style="margin:0; font-size:100%; font-weight:bold" href="https://arxiv.org/abs/1803.08943">Image Inpainting using Block-wise Procedural Training with Annealed Adversarial Counterpar</a></b>
+      <br> Chao Yang, Yuhang Song, Xiaofeng Liu, Qingming Tang, C-C Jay Kuo <br> <i>arXiv: 1803.08943</i>.
+      <br> <a href="https://liu-xiaofeng.github.io/publications/Image Inpainting using Block-wise Procedural Training with Annealed Adversarial Counterpar.pdf"> [PDF] </a>
+      <a href="https://scholar.googleusercontent.com/scholar.bib?q=info:zltYsqWplfkJ:scholar.google.com/&output=citation&scisdr=CgXtancFEMnQ6JEOvXk:AAGBfm0AAAAAXn0LpXmjZhyml8-j2VISv0T9vpTAoO5L&scisig=AAGBfm0AAAAAXn0LpR6ugTw1E2cvFozzeRwUKaauLZMf&scisf=4&ct=citation&cd=-1&hl=en&scfhb=1"> [BibTex] </a>
+      <button class="accordion">
+      Abstract
+    </button>
+    </p>
+    <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"> Recent advances in deep generative models have shown promising potential in image inpanting, which refers to the task of predicting missing pixel values of an incomplete image using the known context. However, existing methods can be slow or generate unsatisfying results with easily detectable flaws. In addition, there is often perceivable discontinuity near the holes and require further post-processing to blend the results. We present a new approach to address the difficulty of training a very deep generative model to synthesize high-quality photo-realistic inpainting. Our model uses conditional generative adversarial networks (conditional GANs) as the backbone, and we introduce a novel block-wise procedural training scheme to stabilize the training while we increase the network depth. We also propose a new strategy called adversarial loss annealing to reduce the artifacts. We further describe several losses specifically designed for inpainting and show their effectiveness. Extensive experiments and user-study show that our approach outperforms existing methods in several tasks such as inpainting, face completion and image harmonization. Finally, we show our framework can be easily used as a tool for interactive guided inpainting, demonstrating its practical value to solve common real-world challenges. </div></p>
+    </tr>
+   </tbody></table>
+   <p class="margin-small">&nbsp;</p>
+
+
+
+
+
+
+
+     <table border="0">
+    <tbody><tr>
+    <td width="140"><a href="https://liu-xiaofeng.github.io/publications/Adaptive metric learning with deep neural networks for video-based facial expression recognition.pdf"><img src="https://liu-xiaofeng.github.io/publications/figs/Adaptive metric learning with deep neural networks for video-based facial expression recognition.jpg" border="1"width="210"></a></td>
+    <td width="20"></td>
+    <td valign="middle" width="900">
+    <p style="margin:0;" }><p > <a style="margin:0; font-size:100%; font-weight:bold" href="https://www.spiedigitallibrary.org/journals/Journal-of-Electronic-Imaging/volume-27/issue-1/013022/Adaptive-metric-learning-with-deep-neural-networks-for-video-based/10.1117/1.JEI.27.1.013022.short?SSO=1">Adaptive metric learning with deep neural networks for video-based facial expression recognition</a></b>
+      <br> Xiaofeng Liu, Yubin Ge, Chao Yang, Ping Jia <br> <i>Journal of Electronic Imaging</i>, 013022.
+      <br> <a href="https://liu-xiaofeng.github.io/publications/Adaptive metric learning with deep neural networks for video-based facial expression recognition.pdf"> [PDF] </a>
+      <a href="https://scholar.googleusercontent.com/scholar.bib?q=info:u-fLi-NUj9kJ:scholar.google.com/&output=citation&scisdr=CgXtancFEMnQ6JEPbXw:AAGBfm0AAAAAXn0KdXxr5fPk-gSlDPbkeZZfljm078eB&scisig=AAGBfm0AAAAAXn0KdXqLiscdQEa073pfsrzxPxKrONe5&scisf=4&ct=citation&cd=-1&hl=en&scfhb=1"> [BibTex] </a>
+      <button class="accordion">
+      Abstract
+    </button>
+    </p>
+    <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"> Video-based facial expression recognition has become increasingly important for plenty of applications in the real world. Despite that numerous efforts have been made for the single sequence, how to balance the complex distribution of intra- and interclass variations well between sequences has remained a great difficulty in this area. We propose the adaptive ( N+M)-tuplet clusters loss function and optimize it with the softmax loss simultaneously in the training phrase. The variations introduced by personal attributes are alleviated using the similarity measurements of multiple samples in the feature space with many fewer comparison times as conventional deep metric learning approaches, which enables the metric calculations for large data applications (e.g., videos). Both the spatial and temporal relations are well explored by a unified framework that consists of an Inception-ResNet network with long short term memory and the two fully connected layer branches structure. Our proposed method has been evaluated with three well-known databases, and the experimental results show that our method outperforms many state-of-the-art approaches. </div></p>
+    </tr>
+   </tbody></table>
+   <p class="margin-small">&nbsp;</p>
+
+
+
+    <table border="0">
+    <tbody><tr>
+    <td width="140"><a href="https://liu-xiaofeng.github.io/publications/Panoramic stereo imaging system for efficient.pdf"><img src="https://liu-xiaofeng.github.io/publications/figs/Panoramic stereo imaging system for efficient.jpg" border="1"width="210"></a></td>
+    <td width="20"></td>
+    <td valign="middle" width="900">
+    <p style="margin:0;" }><p > <a style="margin:0; font-size:100%; font-weight:bold" href="https://www.osapublishing.org/ao/abstract.cfm?uri=ao-57-3-396">Panoramic stereo imaging system for efficient mosaicking: parallax analyses and system design</a></b>
+      <br> Junliang Yan, Lingsheng Kong, Zhihui Diao, Xiaofeng Liu, Lilu Zhu, Ping Jia <br> <i>Applied optics</i>, 396-403.
+      <br> <a href="https://liu-xiaofeng.github.io/publications/Panoramic stereo imaging system for efficient.pdf"> [PDF] </a>
+      <a href="https://scholar.googleusercontent.com/scholar.bib?q=info:taua8oqMiSwJ:scholar.google.com/&output=citation&scisdr=CgXtancFEMnQ6JEN31A:AAGBfm0AAAAAXn0Ix1Bq-46q3ycXZQ5E6EDBQHY2TN1V&scisig=AAGBfm0AAAAAXn0Ix788JZ42tDJxYOdQy1qJqS1bv9wJ&scisf=4&ct=citation&cd=-1&hl=en&scfhb=1"> [BibTex] </a>
+      <button class="accordion">
+      Abstract
+    </button>
+    </p>
+    <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"> Panoramic stereo images, captured by distributed devices then mosaicking, are competent contents for virtual reality applications. Mosaicking raw images with different perspectives into satisfying final results is still not efficient enough, even if state-of-the-art algorithms are employed. For improving this efficiency in optical methods, we delve into the potential of the capturing system. Two parallax factors, peak parallax and deviation of parallaxes, are proposed to assess the mosaicking capability. By controlling variables and numerical computation, rules between parallax factors and design parameters have been revealed. Validation by simulations, large capturing distance, more cameras, compact arrangement, and moderate overlaps are suggested as the general design strategy. Benefiting from efficient mosaicking, systems based on our design strategy would have potential for real-time applications. </div></p>
+    </tr>
+   </tbody></table>
+   <p class="margin-small">&nbsp;</p>
+
+
+    <table border="0">
+    <tbody><tr>
+    <td width="140"><a href="https://liu-xiaofeng.github.io/publications/Normalized face image generation with perceptron generative adversarial networks.pdf"><img src="https://liu-xiaofeng.github.io/publications/figs/Normalized face image generation with perceptron generative adversarial networks.bmp" border="1"width="210"></a></td>
+    <td width="20"></td>
+    <td valign="middle" width="900">
+    <p style="margin:0;" }><p > <a style="margin:0; font-size:100%; font-weight:bold" href="https://ieeexplore.ieee.org/abstract/document/8311462">Normalized face image generation with perceptron generative adversarial networks</a></b>
+        <br> Xiaofeng Liu, BVK Vijaya Kumar, Yubin Ge, Chao Yang, Jane You, Ping Jia <br> <i>IEEE International Conference on Identity, Security, and Behavior Analysis (ISBA)</i>, 2018. <b><a href="https://liu-xiaofeng.github.io/publications/figs/award.jpg"> [IBM Best Paper Award]</a>a></b>
+      <br> <a href="https://liu-xiaofeng.github.io/publications/Normalized face image generation with perceptron generative adversarial networks.pdf"> [PDF] </a>
+      <a href="https://scholar.googleusercontent.com/scholar.bib?q=info:BJBX56uS2qIJ:scholar.google.com/&output=citation&scisdr=CgXtancFEMnQ6JENcjg:AAGBfm0AAAAAXn0IajjGncPysTVusxvIvgL2vXsbtjc_&scisig=AAGBfm0AAAAAXn0IakVdUT_JBI-s9FRdpC5CGdfSKFLJ&scisf=4&ct=citation&cd=-1&hl=en"> [BibTex] </a>
+
+      <button class="accordion">
+      Abstract
+    </button>
+    </p>
+    <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"> This paper presents a deep neural architecture for synthesizing the frontal and neutral facial expression image of a subject given a query face image with arbitrary expression. This is achieved by introducing a combination of feature space perceptual loss, pixel-level loss, adversarial loss, symmetry loss, and identity-preserving loss. We leverage both the frontal and neutral face distributions and pre-trained discriminative deep perceptron models to guide the identity-preserving inference of the normalized views from expressive profiles. Unlike previous generative methods that utilize their intermediate features for the recognition tasks, the resulting expression- and pose-disentangled face image has potential for several downstream applications, such as facial expression or face recognition, and attribute estimation. We show that our approach produces photorealistic and coherent results, which assist the deep metric learning-based facial expression recognition (FER) to achieve promising results on two well-known FER datasets. </div></p>
+    </tr>
+   </tbody></table>
+   <p class="margin-small">&nbsp;</p>
+
+
+    <table border="0">
+    <tbody><tr>
+    <td width="140"><a href="https://liu-xiaofeng.github.io/publications/CN108492751A.pdf"><img src="https://liu-xiaofeng.github.io/publications/figs/CN108492751A.bmp" border="1"width="210"></a></td>
+    <td width="20"></td>
+    <td valign="middle" width="900">
+    <p style="margin:0;" }><p > <a style="margin:0; font-size:100%; font-weight:bold" href="https://patents.google.com/patent/CN108492751A/zh">一种图像悬浮显示装置及3D显示器（Image suspension display device and 3D display）</a></b>
+      <br> CN106021803A <br> <i>CN Patent</i>.
+      <br> <a href="https://liu-xiaofeng.github.io/publications/CN108492751A.pdf"> [PDF] </a>
+      <a href=" http://xueshu.baidu.com/u/citation?&url=http%3A%2F%2Fwww.ixueshu.com%2Fdocument%2Fa8b9855222fc772c8116e8e207ac4043318947a18e7f9386.html&sign=afb1eb4763962769f71b2bfb0f9020f1&diversion=null&t=bib "> [BibTex] </a>
+      <button class="accordion">
+      Abstract
+    </button>
+    </p>
+    <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"> 本发明提供的图像悬浮显示装置，利用了LED显示阵列单元的显示区域与反射玻璃的反射区域相匹配，突破了显示光源分辨率对悬浮图像的画幅大小的限制，解决了显示光源的分辨率利用率不高的问题，同时首次采用回字型LED显示阵列，大大提高了四个角的屏幕利用率。另外，该系统还增加了消杂光的滤光镜系统，提高了动态图像悬浮的对比度，增强了悬浮视觉的效果，本发明使动态图像悬浮的画幅尺寸得以增大，整个系统的观察方向的横向相对尺寸得以减小，为大尺寸悬浮显示屏的设计提供了方便，并且使观察者可以在更加舒适的视觉范围内对所显示的动态图像进行观察。本发明还提供一种3D显示器。 </div></p>
+    </tr>
+   </tbody></table>
+   <p class="margin-small">&nbsp;</p>
+
+
+    <table border="0">
+    <tbody><tr>
+    <td width="140"><a href="https://liu-xiaofeng.github.io/publications/CN109106567A.pdf"><img src="https://liu-xiaofeng.github.io/publications/figs/CN109106567A.bmp" border="1"width="210"></a></td>
+    <td width="20"></td>
+    <td valign="middle" width="900">
+    <p style="margin:0;" }><p > <a style="margin:0; font-size:100%; font-weight:bold" href="https://patents.google.com/patent/CN109106567A/zh">一种用于近视治疗的多视距显示系统（Multi-line-of-sight display system for myopia treatment）</a></b>
+      <br> CN106021803A <br> <i>CN Patent</i>.
+      <br> <a href="https://liu-xiaofeng.github.io/publications/CN109106567A.pdf"> [PDF] </a><button class="accordion">
+      Abstract
+    </button>
+    </p>
+    <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"> 本发明提供了一种用于近视治疗的多视距显示系统，包括：头戴式装置，以及固定在所述头戴式装置内的实时处理模块、双目显示模块和可变焦光学模块；所述实时处理模块用于依据使用者触发的视频图像控制指令生成视频图像驱动信号；所述双目显示模块用于依据所述视频图像驱动信号，显示相对应的视频图像；所述可变焦光学模块用于改变所述视频图像成像位置与使用者眼睛之间的距离。该多视距显示系统可以更为有效的进行近视治疗。 </div></p>
+    </tr>
+   </tbody></table>
+   <p class="margin-small">&nbsp;</p>
+
+
+
+    <table border="0">
+    <tbody><tr>
+    <td width="140"><a href="https://liu-xiaofeng.github.io/publications/CN108492724A.pdf"><img src="https://liu-xiaofeng.github.io/publications/figs/CN108492724A.bmp" border="1"width="210"></a></td>
+    <td width="20"></td>
+    <td valign="middle" width="900">
+    <p style="margin:0;" }><p > <a style="margin:0; font-size:100%; font-weight:bold" href="https://patents.google.com/patent/CN108492724A/zh">一种适应视觉特性的沉浸式显示装置及VR设备（Immersive display device and VR equipment adapted to visual characteristics）</a></b>
+      <br> CN106021803A <br> <i>CN Patent</i>.
+      <br> <a href="https://liu-xiaofeng.github.io/publications/CN108492724A"> [PDF] </a>
+      <button class="accordion">
+      Abstract
+    </button>
+    </p>
+    <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"> 本发明提供的适应视觉特性的沉浸式显示装置及VR设备，由高分辨率、小间距的中心屏和多块较低分辨率的其他屏构成，可以满足观看者视觉中心及边缘不同分辨率要求，且多人同时观看失真小。显示装置及设备采用具有自发光特性的COB小间距LED显示器件，其亮度、色彩饱和度高，观看过程受环境照明条件影响小，并可实现无缝拼接，图像一致性高。在中心屏达到人眼极限分辨率的前提下，视觉边缘对应的其他屏采用较低分辨率的LED屏，大幅降低了实用成本并且符合人眼视觉特性。所有显示屏均采用模块化箱体设计，方便安装、拆卸及运输。 </div></p>
+    </tr>
+   </tbody></table>
+   <p class="margin-small">&nbsp;</p>
+
+
+
+   <hr>
+    <h2>2017</h2>
+
+    <table border="0">
+    <tbody><tr>
+    <td width="140"><a href="http://openaccess.thecvf.com/content_cvpr_2017_workshops/w6/papers/Liu_Adaptive_Deep_Metric_CVPR_2017_paper.pdf"><img src="https://liu-xiaofeng.github.io/publications/figs/Adaptive Deep Metric Learning for Identity-Aware Facial Expression Recognition.bmp" border="1"width="210"></a></td>
+    <td width="20"></td>
+    <td valign="middle" width="900">
+    <p style="margin:0;" }><p > <a style="margin:0; font-size:100%; font-weight:bold" href="https://ieeexplore.ieee.org/abstract/document/8014813">Adaptive Deep Metric Learning for Identity-Aware Facial Expression Recognition</a></b>
+      <br> Xiaofeng Liu, B.V.K Vijaya Kumar, Jane You, Ping Jia <br> <i>IEEE Conference on Computer Vision and Pattern Recognition (CVPR) Workshops</i>, 2017.<b>[Oral]</b>
+      <br> <a href="https://liu-xiaofeng.github.io/publications/Adaptive Deep Metric Learning for Identity-Aware Facial Expression Recognition.pdf"> [PDF] </a>
+      <a href="https://scholar.googleusercontent.com/scholar.bib?q=info:9QpnQ_HLdgoJ:scholar.google.com/&output=citation&scisdr=CgXtancFEMnQ6JD4npY:AAGBfm0AAAAAXnz9hpYuRQxvSo3bv0LBgtSAgWG_x5Jn&scisig=AAGBfm0AAAAAXnz9hrb3flwuyxWWWVk1lHl5azrFpZBg&scisf=4&ct=citation&cd=-1&hl=en&scfhb=1"> [BibTex] </a>
+       <button class="accordion">
+      Abstract
+    </button>
+    </p>
+    <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"> A key challenge of facial expression recognition (FER) is to develop effective representations to balance the complex distribution of intra- and inter- class variations. The latest deep convolutional networks proposed for FER are trained by penalizing the misclassification of images via the softmax loss. In this paper, we show that better FER performance can be achieved by combining the deep metric loss and softmax loss in a unified two fully connected layer branches framework via joint optimization. A generalized adaptive (N+M)-tuplet clusters loss function together with the identity-aware hard-negative mining and online positive mining scheme are proposed for identity-invariant FER. It reduces the computational burden of deep metric learning, and alleviates the difficulty of threshold validation and anchor selection. Extensive evaluations demonstrate that our method outperforms many state-of-art approaches on the posed as well as spontaneous facial expression databases. </div></p>
+    </tr>
+   </tbody></table>
+   <p class="margin-small">&nbsp;</p>
+
+
+    <table border="0">
+    <tbody><tr>
+    <td width="140"><a href="https://liu-xiaofeng.github.io/publications/Line-scan system for continuous hand authentication.pdf"><img src="https://liu-xiaofeng.github.io/publications/figs/Line-scan system for continuous hand authentication.bmp" border="1"width="210"></a></td>
+    <td width="20"></td>
+    <td valign="middle" width="900">
+    <p style="margin:0;" }><p > <a style="margin:0; font-size:100%; font-weight:bold" href="https://www.spiedigitallibrary.org/journals/Optical-Engineering/volume-56/issue-3/033106/Line-scan-system-for-continuous-hand-authentication/10.1117/1.OE.56.3.033106.short?SSO=1">Line-scan system for continuous hand authentication</a></b>
+      <br> Xiaofeng Liu, Lingsheng Kong, Zhihui Diao, Ping Jia <br> <i>Optical Engineering</i>, 56(3), 033106 (2017).
+      <br> <a href="https://liu-xiaofeng.github.io/publications/Line-scan system for continuous hand authentication.pdf"> [PDF] </a>
+      <a href="https://scholar.googleusercontent.com/scholar.bib?q=info:cC2A8XN1ei4J:scholar.google.com/&output=citation&scisdr=CgXtancFEMnQ6JD-8OA:AAGBfm0AAAAAXnz76OCq6nHf2SYVe7YGlxckPKCB5QSA&scisig=AAGBfm0AAAAAXnz76Jz_lfX0GxmKL5nGw_SdkSB53FUD&scisf=4&ct=citation&cd=-1&hl=en"> [BibTex] </a>
+       <button class="accordion">
+      Abstract
+    </button>
+    </p>
+    <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"> An increasing number of heavy machinery and vehicles have come into service, giving rise to a significant concern over protecting these high-security systems from misuse. Conventionally, authentication performed merely at the initial login may not be sufficient for detecting intruders throughout the operating session. To address this critical security flaw, a line-scan continuous hand authentication system with the appearance of an operating rod is proposed. Given that the operating rod is occupied throughout the operating period, it can be a possible solution for unobtrusively recording the personal characteristics for continuous monitoring. The ergonomics in the physiological and psychological aspects are fully considered. Under the shape constraints, a highly integrated line-scan sensor, a controller unit, and a gear motor with encoder are utilized. This system is suitable for both the desktop and embedded platforms with a universal serial bus interface. The volume of the proposed system is smaller than 15% of current multispectral area-based camera systems. Based on experiments on a database with 4000 images from 200 volunteers, a competitive equal error rate of 0.1179% is achieved, which is far more accurate than the state-of-the-art continuous authentication systems using other modalities. </div></p>
+    </tr>
+   </tbody></table>
+   <p class="margin-small">&nbsp;</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <hr>
+    <h2>2016</h2>
+
+    <table border="0">
+    <tbody><tr>
+    <td width="140"><a href="https://liu-xiaofeng.github.io/publications/CN106021803B.pdf"><img src="https://liu-xiaofeng.github.io/publications/figs/CN106021803B.bmp" border="1"width="210"></a></td>
+    <td width="20"></td>
+    <td valign="middle" width="900">
+    <p style="margin:0;" }><p > <a style="margin:0; font-size:100%; font-weight:bold" href="https://patents.google.com/patent/CN106021803B/zh">一种确定图像采集设备最优排布的方法及系统（Method and system for determining optimal arrangement of image acquisition equipment）</a></b>
+      <br> CN106021803A <br> <i>CN Patent</i>.
+      <br> <a href="https://liu-xiaofeng.github.io/publications/CN106021803B.pdf"> [PDF] </a>
+      <a href="http://xueshu.baidu.com/u/citation?&url=http%3A%2F%2Fcprs.patentstar.com.cn%2FSearch%2FDetail%3FANE%3D8CEA9ICB6BEA9EDE8AHA3BCA9GFFFFIA9HDF3DAA3ACA9DGE&sign=d56e91f4ef56e95c80e7c9942f7385b5&diversion=6807253478906265601&t=bib"> [BibTex] </a>
+      <button class="accordion">
+      Abstract
+    </button>
+    </p>
+    <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"> 本申请提供了一种确定图像采集设备最优排布的方法及系统，构建目标场地的三维模型；在目标场地的三维模型中加入预先获取的目标标记点的三维位置数据；在目标场地的三维模型中，通过三维位置数据确定目标夹角以及与各个图像采集设备对应的目标距离、目标视场角，目标夹角为多个图像采集设备进行两两组合获得的各个图像采集设备对中两个图像采集设备的夹角；基于预先获得的各个图像采集设备的可视距离范围、视场角范围，利用目标距离、目标视场角和目标夹角，按预设的计算规则确定多个图像采集设备在目标场地中的最优排布。本申请可获得图像采集设备在目标场地中的最优排布方案，基于该最优排布方法可获得较好的运动捕捉效果。 </div></p>
+    </tr>
+   </tbody></table>
+   <p class="margin-small">&nbsp;</p>
+
+
+    <table border="0">
+    <tbody><tr>
+    <td width="140"><a href="https://liu-xiaofeng.github.io/publications/CN106056089B.pdf"><img src="https://liu-xiaofeng.github.io/publications/figs/CN106056089B.bmp" border="1"width="210"></a></td>
+    <td width="20"></td>
+    <td valign="middle" width="900">
+    <p style="margin:0;" }><p > <a style="margin:0; font-size:100%; font-weight:bold" href="https://patents.google.com/patent/CN106056089B/zh">一种三维姿态识别方法及系统（A 3D pose recognition methods and system）</a></b>
+      <br> CN106056089A <br> <i>CN Patent</i>.
+      <br> <a href="https://liu-xiaofeng.github.io/publications/CN106056089B.pdf"> [PDF] </a>
+      <a href="http://xueshu.baidu.com/u/citation?&url=http%3A%2F%2Fcprs.patentstar.com.cn%2FSearch%2FDetail%3FANE%3D9IDE8HBA7AGA9CIH6DCA8BHA9DGD9EDH9HCE6AGA9FGE6AEA&sign=30f52948beb54bd482abd03d24ea7bf5&diversion=6807253478906265601&t=bib"> [BibTex] </a>
+      <button class="accordion">
+      Abstract
+    </button>
+    </p>
+    <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"> 本申请提供了一种三维姿态识别方法及系统，获取多个视角的目标图像帧序列，目标图像帧序列中包括待识别的目标图像帧；分别对各个视角的目标图像帧序列进行轮廓提取，获得各个视角的目标轮廓图像帧序列；从预存的多个参考轮廓图像帧序列中，分别确定出与各个视角的目标轮廓图像帧序列匹配的参考轮廓图像帧序列作为各个视角的目标参考轮廓图像帧序列；基于预存的与各个参考轮廓图像帧序列中各个图像帧对应的姿态信息，从各个视角的目标参考轮廓图像帧序列中确定出与目标图像帧对应的参考轮廓图像帧所对应的姿态信息，作为各个视角的二维姿态信息；通过二维姿态信息确定三维姿态信息。本申请可应用于室外大型运动场景，且提升了姿态识别的识别率。 </div></p>
+    </tr>
+   </tbody></table>
+   <p class="margin-small">&nbsp;</p>
+
+
+    <table border="0">
+    <tbody><tr>
+    <td width="140"><a href="https://liu-xiaofeng.github.io/publications/CN106022269A.pdf"><img src="https://liu-xiaofeng.github.io/publications/figs/CN106022269A.bmp" border="1"width="210"></a></td>
+    <td width="20"></td>
+    <td valign="middle" width="900">
+    <p style="margin:0;" }><p > <a style="margin:0; font-size:100%; font-weight:bold" href="https://patents.google.com/patent/CN106022269A/zh">一种人脸配准方法及装置（A face registration method and device）</a></b>
+      <br> CN106022269A <br> <i>CN Patent</i>.
+      <br> <a href="https://liu-xiaofeng.github.io/publications/CN106022269A.pdf"> [PDF] </a>
+      <a href="http://xueshu.baidu.com/u/citation?&url=http%3A%2F%2Fcprs.patentstar.com.cn%2FSearch%2FDetail%3FANE%3D9GGF9FFB8BGA9HDH9CIC9GFC9DDABGIA9DFD9CDE6GAA9AEB&sign=5864a5aca39b2e81eb4343e6b419aca0&diversion=6807253478906265601&t=bib"> [BibTex] </a>
+      <button class="accordion">
+      Abstract
+    </button>
+    </p>
+    <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"> 本申请提供了一种人脸配准方法及装置，预先设定低分辨率网格模板和高分辨率网格模板，利用低分辨率网格模板对目标人脸图像进行配准，获得低分辨率配准结果；通过低分辨率配准结果和网格转换矩阵确定高分辨率配准参考值，网格转换矩阵用于实现低分辨率网格模板与高分辨率网格模板之间的转换；基于高分辨率配准参考值，利用高分辨率网格模板对目标人脸图像进行配准，获得最终的配准结果。本申请利用低分辨率网格模板进行配准能找到一个大致的配准位置区域，从而使得在使用高分辨率网格模板进行配准时，不至于优化到其它的局部极值点上，利用高分辨率网格模板进行配准，可基于参考值排除一些偏离参考值较大的计算结果，最终得到精确的配准结果。 </div></p>
+    </tr>
+   </tbody></table>
+   <p class="margin-small">&nbsp;</p>
+
+
+
+
+
+
+
+      </section>
+      <footer>
+        <p><small>Hosted on GitHub Pages </small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    <script> 
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+        acc[i].onclick = function(){
+            this.classList.toggle("active");
+            this.parentNode.nextElementSibling.classList.toggle("show");
+      }
+    }
+    </script>
+  </body>
 </html>
