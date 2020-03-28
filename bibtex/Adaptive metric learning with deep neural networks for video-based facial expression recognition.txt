@@ -1,0 +1,10 @@
+@article{liu2018adaptive,
+  title={Adaptive metric learning with deep neural networks for video-based facial expression recognition},
+  author={Liu, Xiaofeng and Ge, Yubin and Yang, Chao and Jia, Ping},
+  journal={Journal of Electronic Imaging},
+  volume={27},
+  number={1},
+  pages={013022},
+  year={2018},
+  publisher={International Society for Optics and Photonics}
+}

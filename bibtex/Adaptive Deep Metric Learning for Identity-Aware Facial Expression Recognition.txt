@@ -1,0 +1,7 @@
+@inproceedings{liu2017adaptive,
+  title={Adaptive deep metric learning for identity-aware facial expression recognition},
+  author={Liu, Xiaofeng and Vijaya Kumar, BVK and You, Jane and Jia, Ping},
+  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition Workshops},
+  pages={20--29},
+  year={2017}
+}

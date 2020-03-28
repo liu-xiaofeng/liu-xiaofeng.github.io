@@ -1,0 +1,7 @@
+@inproceedings{liu2018ordinal,
+  title={Ordinal regression with neuron stick-breaking for medical diagnosis},
+  author={Liu, Xiaofeng and Zou, Yang and Song, Yuhang and Yang, Chao and You, Jane and K Vijaya Kumar, BV},
+  booktitle={Proceedings of the European Conference on Computer Vision (ECCV)},
+  pages={0--0},
+  year={2018}
+}

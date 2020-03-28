@@ -1,0 +1,8 @@
+@inproceedings{liu2018data,
+  title={Data augmentation via latent space interpolation for image classification},
+  author={Liu, Xiaofeng and Zou, Yang and Kong, Lingsheng and Diao, Zhihui and Yan, Junliang and Wang, Jun and Li, Site and Jia, Ping and You, Jane},
+  booktitle={2018 24th International Conference on Pattern Recognition (ICPR)},
+  pages={728--733},
+  year={2018},
+  organization={IEEE}
+}

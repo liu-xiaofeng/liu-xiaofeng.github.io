@@ -1,0 +1,7 @@
+@inproceedings{liu2018dependency,
+  title={Dependency-aware attention control for unconstrained face recognition with image sets},
+  author={Liu, Xiaofeng and Vijaya Kumar, BVK and Yang, Chao and Tang, Qingming and You, Jane},
+  booktitle={Proceedings of the European Conference on Computer Vision (ECCV)},
+  pages={548--565},
+  year={2018}
+}

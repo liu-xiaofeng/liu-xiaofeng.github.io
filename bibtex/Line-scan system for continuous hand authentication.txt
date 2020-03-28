@@ -1,0 +1,10 @@
+@article{liu2017line,
+  title={Line-scan system for continuous hand authentication},
+  author={Liu, Xiaofeng and Kong, Lingsheng and Diao, Zhihui and Jia, Ping},
+  journal={Optical Engineering},
+  volume={56},
+  number={3},
+  pages={033106},
+  year={2017},
+  publisher={International Society for Optics and Photonics}
+}

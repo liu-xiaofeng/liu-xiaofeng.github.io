@@ -1,0 +1,8 @@
+@inproceedings{liu2018joint,
+  title={A joint optimization framework of low-dimensional projection and collaborative representation for discriminative classification},
+  author={Liu, Xiaofeng and Li, Zhaofeng and Kong, Lingsheng and Diao, Zhihui and Yan, Junliang and Zou, Yang and Yang, Chao and Jia, Ping and You, Jane},
+  booktitle={2018 24th International Conference on Pattern Recognition (ICPR)},
+  pages={1493--1498},
+  year={2018},
+  organization={IEEE}
+}

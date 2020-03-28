@@ -1,0 +1,7 @@
+@inproceedings{liu2019permutation,
+  title={Permutation-invariant feature restructuring for correlation-aware image set-based recognition},
+  author={Liu, Xiaofeng and Guo, Zhenhua and Li, Site and Kong, Lingsheng and Jia, Ping and You, Jane and Kumar, BVK},
+  booktitle={Proceedings of the IEEE International Conference on Computer Vision},
+  pages={4986--4996},
+  year={2019}
+}

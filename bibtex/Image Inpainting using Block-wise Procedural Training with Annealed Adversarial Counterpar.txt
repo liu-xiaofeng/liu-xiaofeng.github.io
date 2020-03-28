@@ -1,0 +1,6 @@
+@article{yang2018image,
+  title={Image inpainting using block-wise procedural training with annealed adversarial counterpart},
+  author={Yang, Chao and Song, Yuhang and Liu, Xiaofeng and Tang, Qingming and Kuo, C-C Jay},
+  journal={arXiv preprint arXiv:1803.08943},
+  year={2018}
+}

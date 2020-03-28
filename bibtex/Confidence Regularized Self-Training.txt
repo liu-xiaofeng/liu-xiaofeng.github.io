@@ -1,0 +1,7 @@
+@inproceedings{zou2019confidence,
+  title={Confidence regularized self-training},
+  author={Zou, Yang and Yu, Zhiding and Liu, Xiaofeng and Kumar, BVK and Wang, Jinsong},
+  booktitle={Proceedings of the IEEE International Conference on Computer Vision},
+  pages={5982--5991},
+  year={2019}
+}

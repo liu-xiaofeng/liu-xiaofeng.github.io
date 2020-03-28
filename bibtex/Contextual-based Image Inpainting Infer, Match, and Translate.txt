@@ -1,0 +1,7 @@
+@inproceedings{song2018contextual,
+  title={Contextual-based image inpainting: Infer, match, and translate},
+  author={Song, Yuhang and Yang, Chao and Lin, Zhe and Liu, Xiaofeng and Huang, Qin and Li, Hao and Jay Kuo, C-C},
+  booktitle={Proceedings of the European Conference on Computer Vision (ECCV)},
+  pages={3--19},
+  year={2018}
+}

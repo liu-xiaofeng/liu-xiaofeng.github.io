@@ -1,0 +1,7 @@
+@article{liu2020severity,
+  title={Severity-Aware Semantic Segmentation with Reinforced Wasserstein Training},
+  author={Liu, Xiaofeng and Ji, Wenxuan and You, Jane and EL Fakhri, Georges and Woo, Jonghye},
+  journal={IEEE Conf. on Computer Vision and Pattern Recognition (CVPR), 2020},
+  year={2020},
+  publisher={CVPR}
+}

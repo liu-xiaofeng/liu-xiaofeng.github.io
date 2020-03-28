@@ -1,0 +1,10 @@
+@article{yan2018panoramic,
+  title={Panoramic stereo imaging system for efficient mosaicking: parallax analyses and system design},
+  author={Yan, Junliang and Kong, Lingsheng and Diao, Zhihui and Liu, Xiaofeng and Zhu, Lilu and Jia, Ping},
+  journal={Applied optics},
+  volume={57},
+  number={3},
+  pages={396--403},
+  year={2018},
+  publisher={Optical Society of America}
+}

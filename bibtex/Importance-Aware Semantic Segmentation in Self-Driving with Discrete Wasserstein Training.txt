@@ -1,0 +1,7 @@
+@article{liu2020importance,
+  title={Importance-Aware Semantic Segmentation in Self-Driving with Discrete Wasserstein Training},
+  author={Liu, Xiaofeng and Han, Yuzhuo and Bai, Song and Ge, Yi and Wang, Tianxing and Han, Xu and Li, Site and You, Jane and Lu, Jun},
+  journal={Thirty-Fourth AAAI Conference on Artificial Intelligence (AAAI), 2020},
+  year={2020},
+  publisher={AAAI}
+}

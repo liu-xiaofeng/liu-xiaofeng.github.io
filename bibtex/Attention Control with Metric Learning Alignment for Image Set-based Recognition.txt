@@ -1,0 +1,6 @@
+@article{liu2019attention,
+  title={Attention Control with Metric Learning Alignment for Image Set-based Recognition},
+  author={Liu, Xiaofeng and Guo, Zhenhua and You, Jane and Kumar, BV},
+  journal={arXiv preprint arXiv:1908.01872},
+  year={2019}
+}

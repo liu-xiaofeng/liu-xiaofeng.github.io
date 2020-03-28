@@ -1,0 +1,5 @@
+@phdthesis{liuresearch,
+  title={Research on the technology of deep learning based face image recognition},
+  author={Liu, Xiaofeng},
+  school={Thesis, 2019. 1}
+}

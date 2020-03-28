@@ -1,0 +1,7 @@
+@article{liu2020unimodal,
+  title={Unimodal Regularized Neuron Stick-breaking for Ordinal Classification},
+  author={Liu, Xiaofeng and Fan, Fangfang and Kong, Lingsheng and Diao, Zhihui and Xie, Wanqing and Lu, Jun and You, Jane},
+  journal={Neurocomputing},
+  year={2020},
+  publisher={Elsevier}
+}

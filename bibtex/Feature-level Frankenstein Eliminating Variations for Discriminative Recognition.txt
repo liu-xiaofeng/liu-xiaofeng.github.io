@@ -1,0 +1,7 @@
+@inproceedings{liu2019feature,
+  title={Feature-level frankenstein: Eliminating variations for discriminative recognition},
+  author={Liu, Xiaofeng and Li, Site and Kong, Lingsheng and Xie, Wanqing and Jia, Ping and You, Jane and Kumar, BVK},
+  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
+  pages={637--646},
+  year={2019}
+}

@@ -1,0 +1,10 @@
+@article{diao2019electrically,
+  title={Electrically tunable holographic waveguide display based on holographic polymer dispersed liquid crystal grating},
+  author={Diao, Zhihui and Kong, Lingsheng and Yan, Junliang and Guo, Junda and Liu, Xiaofeng and Xuan, Li and Yu, Lei},
+  journal={Chinese Optics Letters},
+  volume={17},
+  number={1},
+  pages={012301},
+  year={2019},
+  publisher={Chinese Optical Society}
+}

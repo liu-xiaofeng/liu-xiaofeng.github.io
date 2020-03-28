@@ -1,0 +1,7 @@
+@inproceedings{liu2019unimodal,
+  title={Unimodal-uniform constrained wasserstein training for medical diagnosis},
+  author={Liu, Xiaofeng and Han, Xu and Qiao, Yukai and Ge, Yi and Li, Site and Lu, Jun},
+  booktitle={Proceedings of the IEEE International Conference on Computer Vision Workshops},
+  pages={0--0},
+  year={2019}
+}

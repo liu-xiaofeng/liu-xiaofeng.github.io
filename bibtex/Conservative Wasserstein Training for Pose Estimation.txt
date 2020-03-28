@@ -1,0 +1,7 @@
+@inproceedings{liu2019conservative,
+  title={Conservative wasserstein training for pose estimation},
+  author={Liu, Xiaofeng and Zou, Yang and Che, Tong and Ding, Peng and Jia, Ping and You, Jane and Kumar, BVK},
+  booktitle={Proceedings of the IEEE International Conference on Computer Vision},
+  pages={8262--8272},
+  year={2019}
+}

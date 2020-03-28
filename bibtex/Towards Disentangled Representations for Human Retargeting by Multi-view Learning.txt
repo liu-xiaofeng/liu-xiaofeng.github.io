@@ -1,0 +1,6 @@
+@article{yang2019towards,
+  title={Towards Disentangled Representations for Human Retargeting by Multi-view Learning},
+  author={Yang, Chao and Liu, Xiaofeng and Tang, Qingming and Kuo, C-C Jay},
+  journal={arXiv preprint arXiv:1912.06265},
+  year={2019}
+}
