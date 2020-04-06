@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://liu-xiaofeng.github.io/</loc>
+  <lastmod>2020-04-06T03:58:56+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://liu-xiaofeng.github.io/cv.html</loc>
+  <lastmod>2020-04-06T03:58:56+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://liu-xiaofeng.github.io/publications.html</loc>
+  <lastmod>2020-04-06T03:58:56+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://liu-xiaofeng.github.io/projects.html</loc>
+  <lastmod>2020-04-06T03:58:56+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://liu-xiaofeng.github.io/teaching.html</loc>
+  <lastmod>2020-04-06T03:58:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://liu-xiaofeng.github.io/personal.html</loc>
+  <lastmod>2020-04-06T03:58:56+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://liu-xiaofeng.github.io/publications/Severity-Aware%20Semantic%20Segmentation%20with%20Reinforced%20Wasserstein%20Training.pdf</loc>
+  <lastmod>2020-04-06T03:58:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://liu-xiaofeng.github.io/publications/Image2Audio%20Facilitating%20Semi-supervised%20Audio%20Emotion%20Recognition%20with%20Facial%20Expression%20Image.pdf</loc>
+  <lastmod>2020-04-06T03:58:56+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://liu-xiaofeng.github.io/publications/Importance-Aware%20Semantic%20Segmentation%20in%20Self-Driving%20with%20Discrete%20Wasserstein%20Training.pdf</loc>
+  <lastmod>2020-04-06T03:58:56+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://liu-xiaofeng.github.io/publications/Unimodal%20Regularized%20Neuron%20Stick-breaking%20for%20Ordinal%20Classification.pdf</loc>
+  <lastmod>2020-04-06T03:58:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://liu-xiaofeng.github.io/publications/Conservative%20Wasserstein%20Training%20for%20Pose%20Estimation.pdf</loc>
+  <lastmod>2020-04-06T03:58:56+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://liu-xiaofeng.github.io/publications/Permutation-invariant%20Feature%20Restructuring%20for%20Correlation-aware%20Image%20Set-based%20Recognition.pdf</loc>
+  <lastmod>2020-04-06T03:58:56+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://liu-xiaofeng.github.io/publications/Confidence%20Regularized%20Self-Training.pdf</loc>
+  <lastmod>2020-04-06T03:58:56+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://liu-xiaofeng.github.io/publications/Unimodal-uniform%20Constrained%20Wasserstein%20Training%20for%20Medical%20Diagnosis.pdf</loc>
+  <lastmod>2020-04-06T03:58:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://liu-xiaofeng.github.io/publications/RESEARCH%20ON%20THE%20TECHNOLOGY%20OF%20DEEP%20LEARNING%20BASED%20FACE%20IMAGE%20RECOGNITION.pdf</loc>
+  <lastmod>2020-04-06T03:58:56+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://liu-xiaofeng.github.io/publications/Dependency-aware%20Attention%20Control%20for%20Image%20Set-based%20Face%20Recognition.pdf</loc>
+  <lastmod>2020-04-06T03:58:56+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://liu-xiaofeng.github.io/publications/Hard%20negative%20generation%20for%20identity-disentangled%20facial%20expression%20recognition.pdf</loc>
+  <lastmod>2020-04-06T03:58:56+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://liu-xiaofeng.github.io/publications/Dependency-Aware%20Attention%20Control%20for%20Unconstrained%20Face%20Recognition%20with%20Image%20Sets.pdf</loc>
+  <lastmod>2020-04-06T03:58:56+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://liu-xiaofeng.github.io/publications/Contextual-based%20Image%20Inpainting%20Infer,%20Match,%20and%20Translate.pdf</loc>
+  <lastmod>2020-04-06T03:58:56+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://liu-xiaofeng.github.io/publications/Data%20Augmentation%20via%20Latent%20Space%20Interpolation%20for%20Image%20Classification.pdf</loc>
+  <lastmod>2020-04-06T03:58:56+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://liu-xiaofeng.github.io/publications/A%20joint%20optimization%20framework%20of%20low-dimensional%20projection%20and%20collaborative%20representation%20for%20discriminative%20classification.pdf</loc>
+  <lastmod>2020-04-06T03:58:56+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://liu-xiaofeng.github.io/publications/Normalized%20face%20image%20generation%20with%20perceptron%20generative%20adversarial%20networks.pdf</loc>
+  <lastmod>2020-04-06T03:58:56+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://liu-xiaofeng.github.io/bibtex/Severity-Aware%20Semantic%20Segmentation%20with%20Reinforced%20Wasserstein%20Training.txt</loc>
+  <lastmod>2020-04-06T03:58:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://liu-xiaofeng.github.io/bibtex/Importance-Aware%20Semantic%20Segmentation%20in%20Self-Driving%20with%20Discrete%20Wasserstein%20Training.txt</loc>
+  <lastmod>2020-04-06T03:58:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://liu-xiaofeng.github.io/bibtex/Unimodal%20Regularized%20Neuron%20Stick-breaking%20for%20Ordinal%20Classification.txt</loc>
+  <lastmod>2020-04-06T03:58:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://liu-xiaofeng.github.io/bibtex/Dependency-aware%20Attention%20Control%20for%20Image%20Set-based%20Face%20Recognition.txt</loc>
+  <lastmod>2020-04-06T03:58:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://liu-xiaofeng.github.io/publications/Towards%20Disentangled%20Representations%20for%20Human%20Retargeting%20by%20Multi-view%20Learning.pdf</loc>
+  <lastmod>2020-04-06T03:58:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://liu-xiaofeng.github.io/bibtex/Towards%20Disentangled%20Representations%20for%20Human%20Retargeting%20by%20Multi-view%20Learning.txt</loc>
+  <lastmod>2020-04-06T03:58:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://liu-xiaofeng.github.io/publications/Deep%20Verifier%20Networks.pdf</loc>
+  <lastmod>2020-04-06T03:58:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://liu-xiaofeng.github.io/bibtex/Deep%20Verifier%20Networks%20Verification%20of%20Deep%20Discriminative%20Models%20with%20Deep%20Generative%20Models.txt</loc>
+  <lastmod>2020-04-06T03:58:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://liu-xiaofeng.github.io/bibtex/Permutation-invariant%20Feature%20Restructuring%20for%20Correlation-aware%20Image%20Set-based%20Recognition.txt</loc>
+  <lastmod>2020-04-06T03:58:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://liu-xiaofeng.github.io/bibtex/Conservative%20Wasserstein%20Training%20for%20Pose%20Estimation.txt</loc>
+  <lastmod>2020-04-06T03:58:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://liu-xiaofeng.github.io/bibtex/Confidence%20Regularized%20Self-Training.txt</loc>
+  <lastmod>2020-04-06T03:58:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://liu-xiaofeng.github.io/bibtex/Unimodal-uniform%20Constrained%20Wasserstein%20Training%20for%20Medical%20Diagnosis.txt</loc>
+  <lastmod>2020-04-06T03:58:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://liu-xiaofeng.github.io/bibtex/RESEARCH%20ON%20THE%20TECHNOLOGY%20OF%20DEEP%20LEARNING%20BASED%20FACE%20IMAGE%20RECOGNITION.txt</loc>
+  <lastmod>2020-04-06T03:58:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://liu-xiaofeng.github.io/bibtex/Hard%20negative%20generation%20for%20identity-disentangled%20facial%20expression%20recognition.txt</loc>
+  <lastmod>2020-04-06T03:58:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://liu-xiaofeng.github.io/publications/COL201917012301.pdf</loc>
+  <lastmod>2020-04-06T03:58:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://liu-xiaofeng.github.io/bibtex/COL201917012301.txt</loc>
+  <lastmod>2020-04-06T03:58:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://liu-xiaofeng.github.io/publications/Attention%20Control%20with%20Metric%20Learning%20Alignment%20for%20Image%20Set-based%20Recognition.pdf</loc>
+  <lastmod>2020-04-06T03:58:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://liu-xiaofeng.github.io/bibtex/Attention%20Control%20with%20Metric%20Learning%20Alignment%20for%20Image%20Set-based%20Recognition.txt</loc>
+  <lastmod>2020-04-06T03:58:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://liu-xiaofeng.github.io/bibtex/Dependency-Aware%20Attention%20Control%20for%20Unconstrained%20Face%20Recognition%20with%20Image%20Sets.txt</loc>
+  <lastmod>2020-04-06T03:58:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://liu-xiaofeng.github.io/bibtex/Contextual-based%20Image%20Inpainting%20Infer,%20Match,%20and%20Translate.txt</loc>
+  <lastmod>2020-04-06T03:58:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://liu-xiaofeng.github.io/bibtex/Ordinal%20Regression%20with%20Neuron%20Stick-Breaking%20for%20Medical%20Diagnosis.txt</loc>
+  <lastmod>2020-04-06T03:58:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://liu-xiaofeng.github.io/bibtex/Data%20Augmentation%20via%20Latent%20Space%20Interpolation%20for%20Image%20Classification.txt</loc>
+  <lastmod>2020-04-06T03:58:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://liu-xiaofeng.github.io/bibtex/A%20joint%20optimization%20framework%20of%20low-dimensional%20projection%20and%20collaborative%20representation%20for%20discriminative%20classification.txt</loc>
+  <lastmod>2020-04-06T03:58:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://liu-xiaofeng.github.io/publications/Image%20Inpainting%20using%20Block-wise%20Procedural%20Training%20with%20Annealed%20Adversarial%20Counterpar.pdf</loc>
+  <lastmod>2020-04-06T03:58:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://liu-xiaofeng.github.io/bibtex/Image%20Inpainting%20using%20Block-wise%20Procedural%20Training%20with%20Annealed%20Adversarial%20Counterpar.txt</loc>
+  <lastmod>2020-04-06T03:58:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://liu-xiaofeng.github.io/publications/Adaptive%20metric%20learning%20with%20deep%20neural%20networks%20for%20video-based%20facial%20expression%20recognition.pdf</loc>
+  <lastmod>2020-04-06T03:58:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://liu-xiaofeng.github.io/bibtex/Adaptive%20metric%20learning%20with%20deep%20neural%20networks%20for%20video-based%20facial%20expression%20recognition.txt</loc>
+  <lastmod>2020-04-06T03:58:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://liu-xiaofeng.github.io/publications/Panoramic%20stereo%20imaging%20system%20for%20efficient.pdf</loc>
+  <lastmod>2020-04-06T03:58:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://liu-xiaofeng.github.io/bibtex/Panoramic%20stereo%20imaging%20system%20for%20efficient.txt</loc>
+  <lastmod>2020-04-06T03:58:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://liu-xiaofeng.github.io/bibtex/Normalized%20face%20image%20generation%20with%20perceptron%20generative%20adversarial%20networks.txt</loc>
+  <lastmod>2020-04-06T03:58:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://liu-xiaofeng.github.io/publications/CN108492751A.pdf</loc>
+  <lastmod>2020-04-06T03:58:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://liu-xiaofeng.github.io/publications/CN109106567A.pdf</loc>
+  <lastmod>2020-04-06T03:58:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://liu-xiaofeng.github.io/publications/CN108492724A.pdf</loc>
+  <lastmod>2020-04-06T03:58:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://liu-xiaofeng.github.io/publications/Adaptive%20Deep%20Metric%20Learning%20for%20Identity-Aware%20Facial%20Expression%20Recognition.pdf</loc>
+  <lastmod>2020-04-06T03:58:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://liu-xiaofeng.github.io/bibtex/Adaptive%20Deep%20Metric%20Learning%20for%20Identity-Aware%20Facial%20Expression%20Recognition.txt</loc>
+  <lastmod>2020-04-06T03:58:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://liu-xiaofeng.github.io/publications/Line-scan%20system%20for%20continuous%20hand%20authentication.pdf</loc>
+  <lastmod>2020-04-06T03:58:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://liu-xiaofeng.github.io/bibtex/Line-scan%20system%20for%20continuous%20hand%20authentication.txt</loc>
+  <lastmod>2020-04-06T03:58:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://liu-xiaofeng.github.io/publications/CN106021803B.pdf</loc>
+  <lastmod>2020-04-06T03:58:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://liu-xiaofeng.github.io/publications/CN106056089B.pdf</loc>
+  <lastmod>2020-04-06T03:58:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://liu-xiaofeng.github.io/bibtex/%E4%B8%80%E7%A7%8D%E4%B8%89%E7%BB%B4%E5%A7%BF%E6%80%81%E8%AF%86%E5%88%AB%E6%96%B9%E6%B3%95%E5%8F%8A%E7%B3%BB%E7%BB%9F.txt</loc>
+  <lastmod>2020-04-06T03:58:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://liu-xiaofeng.github.io/publications/CN106022269A.pdf</loc>
+  <lastmod>2020-04-06T03:58:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://liu-xiaofeng.github.io/bibtex/%E4%B8%80%E7%A7%8D%E4%BA%BA%E8%84%B8%E9%85%8D%E5%87%86%E6%96%B9%E6%B3%95%E5%8F%8A%E8%A3%85%E7%BD%AE.txt</loc>
+  <lastmod>2020-04-06T03:58:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
