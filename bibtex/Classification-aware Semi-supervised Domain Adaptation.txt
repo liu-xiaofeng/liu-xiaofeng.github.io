@@ -1,0 +1,7 @@
+@inproceedings{he2020classification,
+  title={Classification-aware semi-supervised domain adaptation},
+  author={He, Gewen and Liu, Xiaofeng and Fan, Fangfang and You, Jane},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops},
+  pages={964--965},
+  year={2020}
+}

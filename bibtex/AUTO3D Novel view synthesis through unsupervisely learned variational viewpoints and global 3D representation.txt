@@ -1,0 +1,7 @@
+@article{liu2020auto3d,
+  title={AUTO3D: Novel view synthesis through unsupervisely learned variational viewpoint and global 3D representation},
+  author={Liu, Xiaofeng and Che, Tong and Lu, Yiqun and Yang, Chao},
+  publisher={Springer},
+  journal={ECCV},
+  year={2020}
+}

@@ -1,0 +1,7 @@
+@inproceedings{han2020wasserstein,
+  title={Wasserstein loss-based deep object detection},
+  author={Han, Yuzhuo and Liu, Xiaofeng and Sheng, Zhenfei and Ren, Yutao and Han, Xu and You, Jane and Liu, Risheng and Luo, Zhongxuan},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops},
+  pages={998--999},
+  year={2020}
+}
