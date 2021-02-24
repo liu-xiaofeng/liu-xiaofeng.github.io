@@ -1,0 +1,6 @@
+@article{liu2020symmetric,
+  title={Symmetric-constrained irregular structure inpainting for brain mri registration with tumor pathology},
+  author={Liu, Xiaofeng and Xing, Fangxu and Yang, Chao and Kuo, C-C Jay and ElFakhri, Georges and Woo, Jonghye},
+  journal={MICCAI： BrainLes},
+  year={2020}
+}

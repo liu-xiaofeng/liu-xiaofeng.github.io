@@ -1,0 +1,6 @@
+@article{liu2021identity,
+  title={Identity-aware facial expression recognition in compressed video},
+  author={Liu, Xiaofeng and Jin, Linghao and Han, Xu and Lu, Jun and You, Jane and Kong, Lingsheng},
+  journal={25th International Conference on Pattern Recognition (ICPR 2020)},
+  year={2021}
+}

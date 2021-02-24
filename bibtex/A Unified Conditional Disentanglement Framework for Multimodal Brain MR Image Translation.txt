@@ -1,0 +1,6 @@
+@article{liu2021unified,
+  title={A Unified Conditional Disentanglement Framework for Multimodal Brain MR Image Translation},
+  author={Liu, Xiaofeng and Xing, Fangxu and Fakhri, Georges El and Woo, Jonghye},
+  journal={IEEE International Symposium on Biomedical Imaging (ISBI)},
+  year={2021}
+}

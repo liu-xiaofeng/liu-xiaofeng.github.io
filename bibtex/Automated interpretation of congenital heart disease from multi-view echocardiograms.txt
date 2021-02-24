@@ -1,0 +1,9 @@
+@article{wang2021automated,
+  title={Automated interpretation of congenital heart disease from multi-view echocardiograms},
+  author={Wang, Jing and Liu, Xiaofeng and Wang, Fangyun and Zheng, Lin and Gao, Fengqiao and Zhang, Hanwen and Zhang, Xin and Xie, Wanqing and Wang, Binbin},
+  journal={Medical Image Analysis},
+  volume={69},
+  pages={101942},
+  year={2021},
+  publisher={Elsevier}
+}

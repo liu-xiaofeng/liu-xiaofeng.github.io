@@ -1,0 +1,9 @@
+@inproceedings{xing2021floor,
+  title={Floor-of-the-mouth muscle function analysis using dynamic magnetic resonance imaging},
+  author={Xing, Fangxu and Stone, Maureen and Prince, Jerry L and Liu, Xiaofeng and El Fakhri, Georges and Woo, Jonghye},
+  booktitle={Medical Imaging 2021: Image Processing},
+  volume={11596},
+  pages={115961P},
+  year={2021},
+  organization={International Society for Optics and Photonics}
+}

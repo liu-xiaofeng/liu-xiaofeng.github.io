@@ -1,6 +1,6 @@
 @article{che2019deep,
   title={Deep verifier networks: Verification of deep discriminative models with deep generative models},
   author={Che, Tong and Liu, Xiaofeng and Li, Site and Ge, Yubin and Zhang, Ruixiang and Xiong, Caiming and Bengio, Yoshua},
-  journal={arXiv preprint arXiv:1911.07421},
-  year={2019}
+  journal={Thirty-Fifth AAAI Conference on Artificial Intelligence (AAAI)},
+  year={2021}
 }

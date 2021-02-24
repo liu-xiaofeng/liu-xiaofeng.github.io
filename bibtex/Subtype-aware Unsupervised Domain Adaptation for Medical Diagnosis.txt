@@ -1,0 +1,6 @@
+@article{liu2021subtype,
+  title={Subtype-aware Unsupervised Domain Adaptation for Medical Diagnosis},
+  author={Liu, Xiaofeng and Liu, Xiongchang and Hu, Bo and Ji, Wenxuan and Xing, Fangxu and Lu, Jun and You, Jane and Kuo, C-C Jay and Fakhri, Georges El and Woo, Jonghye},
+  journal={Thirty-Fifth AAAI Conference on Artificial Intelligence (AAAI)},
+  year={2021}
+}

@@ -1,0 +1,6 @@
+@article{liu2021energy,
+  title={Energy-constrained self-training for unsupervised domain adaptation},
+  author={Liu, Xiaofeng and Hu, Bo and Liu, Xiongchang and Lu, Jun and You, Jane and Kong, Lingsheng},
+  journal={25th International Conference on Pattern Recognition (ICPR 2020)},
+  year={2021}
+}

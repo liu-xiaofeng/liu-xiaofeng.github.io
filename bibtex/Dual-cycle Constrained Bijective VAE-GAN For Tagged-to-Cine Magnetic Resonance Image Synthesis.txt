@@ -1,0 +1,6 @@
+@article{liu2021dual,
+  title={Dual-cycle Constrained Bijective VAE-GAN For Tagged-to-Cine Magnetic Resonance Image Synthesis},
+  author={Liu, Xiaofeng and Xing, Fangxu and Prince, Jerry L and Carass, Aaron and Stone, Maureen and Fakhri, Georges El and Woo, Jonghye},
+  journal={IEEE International Symposium on Biomedical Imaging (ISBI)},
+  year={2021}
+}
